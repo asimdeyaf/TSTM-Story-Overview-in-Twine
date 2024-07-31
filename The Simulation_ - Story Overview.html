@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play The Simulation™ - Story Overview.</tw-noscript></noscript></tw-story>
-<tw-storydata name="The Simulation™ - Story Overview" startnode="115" creator="Twine" creator-version="2.7.1" format="Harlowe" format-version="3.3.7" ifid="547CABDE-0004-4A71-A30D-B2E4A401E118" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.imageContainer {
+<tw-storydata name="The Simulation™ - Story Overview" startnode="114" creator="Twine" creator-version="2.7.1" format="Harlowe" format-version="3.3.7" ifid="547CABDE-0004-4A71-A30D-B2E4A401E118" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.imageContainer {
   display: flex;
   justify-content: space-around; /* This will space out the images evenly */
   flex-wrap: wrap; /* Allows wrapping to next line */
@@ -162,15 +162,15 @@ Before the massive wave smothers you, your vision glitches. A holographic messag
 ROOM 101
 INT - DAY - SIM LABS HQ]
 
-Upon removing the simulator, you find yourself in a small room. On the walls, there is a company name that reads &quot;Sim Labs&quot;, along with the company slogan: &quot;Simulate the past. Predict the future.™&quot;
+You find yourself in a small office room. A holographic display on the wall shows the company name &quot;Sim Labs&quot; and its slogan: &quot;Simulate the past. Predict the future.™&quot;
 
 
 &lt;img src=&quot;https://i.imgur.com/dfUtjvJ.jpg&quot; class=&quot;fitHalf&quot;&gt;
-After a few moments of waiting, the door opens and a Muffin scientist named Professor Ludwig barges in.
+After a brief wait, a Muffin scientist named Professor Ludwig barges in.
 
 
 &lt;img src=&quot;https://i.imgur.com/ltesxgZ.jpg&quot; class=&quot;fitHalf&quot;&gt;
-He introduces himself and reveals that you are one of his many test subjects. Ludwig asks you a few questions which you can reply to by nodding your head yes or no. After questioning, he then explains that you will be starting off in a training simulation before providing you a simulator to put on your face.
+Ludwig introduces himself and begins questioning you, to which you can only respond by nodding yes or no. He then explains that you&#39;ll start with a training simulation and presents you with a simulator device to wear.
 
 (align:&quot;==&gt;&quot;)[[[Wear Simulator...|A1-S02]]]
 
@@ -208,12 +208,14 @@ He introduces himself and reveals that you are one of his many test subjects. Lu
 
 
 
+
+
 SCRIPT DRAFT:
 
-|action&gt;[You are waiting in a small office room. A holographic display screen ahead of you reads “Sim Labs: Simulate the Past. Predict the Future.” After a few moments Ludwig barges in.]
+|action&gt;[You are waiting in a small office room. A holographic display screen ahead of you reads &quot;Sim Labs: Simulate the Past. Predict the Future.&quot; After a few moments Ludwig barges in.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Sorry I’m late. You must be the new test subject. I am Professor Ludwig. Now, I’m sure you have many questions for me. Some of which will be answered, most of which will not be. But I can assure you, you will be very confused by my words. Do you understand?]
+|dialogue&gt;[Sorry I&#39;m late. You must be the new test subject. I am Professor Ludwig. Now, I&#39;m sure you have many questions for me. Some of which will be answered, most of which will not be. But I can assure you, you will be very confused by my words. Do you understand?]
 
 |action&gt;[Ludwig listens for a Yes, No, or Wait input from you.]
 
@@ -231,44 +233,46 @@ SCRIPT DRAFT:
 |dialogue&gt;[- NO: Does not understand. Deficient intellect.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Let’s not waste any time then, Mister Anderson. Do you mind if I refer to you as Mister Anderson?]
+|dialogue&gt;[Let’s not waste any time then, Mister Anderson. Would you mind if I refer to you as Mister Anderson?]
 
 |name&gt;[YOU]
 |dialogue&gt;[- YES - NO - WAIT]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[- WAIT: Do you mind if I refer to you as Mister Anderson?]
+|dialogue&gt;[- WAIT: Would you mind if I refer to you as Mister Anderson?]
 
 |name&gt;[YOU]
 |dialogue&gt;[- YES - NO]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[- YES: Well that’s unfortunate for you, Mister Anderson.]
+|dialogue&gt;[- YES: Well that&#39;s unfortunate for you, Mister Anderson.]
 |dialogue&gt;[- NO: No objections? How accommodating of you.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[We’ll start you off in our training simulation. This will teach you the basics of how to operate our simulations here at Sim Labs. (mumbles slogan quickly) Simulate the past, predict the future… Trademarked.]
+|dialogue&gt;[Let&#39;s start you off in our training simulation. This will teach you the basics of how to operate our simulations here at Sim Labs. (mumbles slogan quickly) Simulate the past, predict the future… Trademarked.]
 
-|action&gt;[Ludwig presses a button on the wall. A platform, embedded in the ceiling, comes down holding a simulator device. Ludwig sets up the simulator while he’s talking.]
+|action&gt;[Ludwig presses a button on the wall. A platform, embedded in the ceiling, comes down holding a simulator device. Ludwig sets up the simulator while he&#39;s talking.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Here is your simulator. It’s loaded with a controlled simulation that I will be monitoring from the control room. When you are ready to begin your training, please put it on your face.]
+|dialogue&gt;[Here is your simulator. It&#39;s loaded with a controlled simulation that I will be monitoring from the control room. Please put this simulator on your face when you are ready to begin your training.]
 
 |action&gt;[Ludwig waits for you to pick up the simulator and put it on.]
 
 |name&gt;[LUDWIG]
 |dialogue&gt;[Go on, Mister Anderson.]
-|dialogue&gt;[The simulator is ready, whenever you are.]
-|dialogue&gt;[Are you defective?]
-|dialogue&gt;[I&#39;ll be in the control room. Just hurry up and put it on, Mister Anderson.]
+|dialogue&gt;[The simulator is ready for you to wear.]
+|dialogue&gt;[This is not difficult. Simply pick up this simulator and put it on your face.]
+|dialogue&gt;[Do you have a defect?]
+|dialogue&gt;[Ugh. I&#39;ll be in the control room. Just hurry up and put it on, Mister Anderson. I don&#39;t have all day.]
 
 |action&gt;[Ludwig walks out.]
+
 |action&gt;[You are left alone to wear the simulator.]
 </tw-passagedata><tw-passagedata pid="3" name="A1-S02" tags="Timeframe_Modern" position="725,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 02]
 THE SIMULATION TRAINING EXPERIENCE MODULE™
 EXT - DAY - TRAINING SIMULATION]
 
-You enter a blank white simulation and are greeted by Professor Ludwig’s voice. Ludwig initially loads the wrong simulation.
+You enter a blank white simulation space. Professor Ludwig&#39;s voice greets you over an intercom. He initially loads the wrong simulation before correcting his mistake and loading the &quot;Sim Labs Simulation Training Experience Module™&quot;.
 
 
 &lt;div class=&quot;imageContainer&quot;&gt;
@@ -276,8 +280,9 @@ You enter a blank white simulation and are greeted by Professor Ludwig’s voice
   &lt;img src=&quot;https://i.imgur.com/BQFntEV.jpg&quot; class=&quot;fit32&quot;&gt;
   &lt;img src=&quot;https://i.imgur.com/702iXSJ.jpg&quot; class=&quot;fit32&quot;&gt;
 &lt;/div&gt;
+|parenthetical&gt;[(ART NOTE: Parody of a scene from The Matrix.)]
 |parenthetical&gt;[(very old art)]
-He quickly fixes his mistake and loads the correct one titled the &quot;Sim Labs Simulation Training Experience Module™&quot;.
+You find yourself in a square area enclosed by a picket fence, with a sign above a gate reading &quot;Training Simulation&quot;. Within this area, Ludwig guides you through basic training, which includes: navigation, interacting with objects, firearms handling.
 
 
 &lt;img src=&quot;https://i.imgur.com/zRdUrX1.jpg&quot; class=&quot;fitHalf&quot;&gt;
@@ -285,12 +290,15 @@ Ludwig first guides you through some basic training for operating within a simul
 
 
 &lt;img src=&quot;https://i.imgur.com/Fwot0AL.jpg&quot; class=&quot;fitHalf&quot;&gt;
-Along the way, there is a fork in the road. One path is closed with danger warning signs. The other path is the clearly intended path. If you go down the wrong path, you will be killed by a hidden sniper and restart at a checkpoint. This is a comical  lesson to condition you to follow the linear story, even though this &quot;definitely is an open world simulation&quot; in Ludwig&#39;s words. Continuing on the intended path, you eventually arrive at the tunnel to Super Awesome Adventure Candy Land™. However, you find the tunnel entrance has collapsed.
+|parenthetical&gt;[(ART NOTE: I want to flip the paths from right to left when making in 3D.)]
+After completing the basic training, Ludwig directs you to follow a path leading to &quot;Super Awesome Adventure Candy Land™&quot;. You pass through the gate and enter a pleasant forest. Along this path, you encounter a fork in the road:
+ - The left path is marked with danger signs.
+ - The right path is clearly the intended route.
+If you choose the left path, a hidden sniper kills you, forcing a checkpoint restart. This serves as a humorous reminder to stick with the linear narrative of the game.
 
 
 &lt;img src=&quot;https://i.imgur.com/dUGGdQ8.jpg&quot; class=&quot;fitHalf&quot;&gt;
-Ludwig is not overly concerned. He briefly explains to you how simulations work. Because of the multi-layered space-time architechture of Sim Labs simulations, each simulated time step produces a higher order simulation recurrsively encompassing simulations of the past. This means when you enter a simulated simulation, you are in effect going back in time.
-Ludwig sends you a simulator to enter a simulation within this current simulation. He tells you it is calibrated to send you to a time before the tunnel collapse.
+Continuing on the correct path, you reach a canyon area with a plateau. At the base of the plateau is the tunnel entrance to Super Awesome Adventure Candy Land™, but the tunnel entrance has collapsed. Ludwig explains the multi-layered space-time architecture of Sim Labs simulations. You learn that whenever you enter a simulation within a simulation, you are in effect going back in time. He sends you a simulator to enter a past version of the simulation prior to the tunnel collapse. Due to Ludwig&#39;s clumsy nature, the simulator gets stuck in a nearby tree before falling and breaking. Ludwig quickly calibrates a replacement simulator that he sends you. He instructs you to wear it.
 
 (align:&quot;==&gt;&quot;)[[[Wear Simulator...|A1-S03]]]
 
@@ -322,23 +330,13 @@ Ludwig sends you a simulator to enter a simulation within this current simulatio
 
 
 
-You do want to be careful when entering simulations within simulations. You could Think you are only entering one layer down but then find yourself stuck having to exit multiple layers to get out. I believe one test subject is still stuck many layers deep in a particularly hazardous simulation. He has already experienced a million eons in solitude. Very unfortunate.
-
-
-
-
-
-
-
-
-
 
 SCRIPT DRAFT:
 
 |action&gt;[You enter a blank white simulation. The environment changes as you hear Ludwig&#39;s voice over an intercom.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Anderson? Can you hear me, Mister Anderson?]
+|dialogue&gt;[Anderson? Can you hear me, Mr. Anderson?]
 
 |action&gt;[You find yourself standing in a featureless white space.]
 
@@ -353,7 +351,7 @@ SCRIPT DRAFT:
 |action&gt;[The gun racks disappear, and the environment transitions to a forest area titled &quot;The Sim Labs Simulation Training Experience Module™&quot;.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Welcome to the Sim Labs Training Simulation Experience Module™. In here, I will teach you everything you need to know about simulations.]
+|dialogue&gt;[Welcome to the Sim Labs Training Simulation Experience Module™. In here, I will teach you everything you must learn about simulations.]
 
 |name&gt;[LUDWIG]
 |dialogue&gt;[Your first lesson is navigation. This guidepost I just sent you demonstrates how to move around using our proprietary Sim Labs navigation method. Go ahead and give it a try.]
@@ -371,17 +369,17 @@ SCRIPT DRAFT:
 |dialogue&gt;[- NO: Alright sheesh. Sorry for trying to improve the simulation experience by providing an innovative way to navigate. You don&#39;t have to be so rude about it. I just changed your method of navigation. These are instructions showing the same, standard, boring method of navigation that all the other simulation programs use.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[If you ever wish to change your navigation method, you can always do so in the pause menu. No, it is not a button you press. To enter the pause menu, you simply remove the simulator from your face.]
+|dialogue&gt;[If you ever wish to change your navigation method, you can always do so in the simulation configuration menu. You might be wondering how to get to that menu. No, it is not a button you press. To enter the menu, you simply remove the simulator from your face.]
 
 |action&gt;[Ludwig instructs you to remove the simulator.]
 
 |name&gt;[LUDWIG]
 |dialogue&gt;[Go on, remove your simulator.]
 
-|action&gt;[You remove the simulator and find yourself in a virtual pause menu.]
+|action&gt;[You remove the simulator and find yourself in a virtual menu.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[As you will notice, this is not the room you were in prior to wearing the simulator. This is the pause menu where you can adjust your settings and whatnot. The only way to truly exit a simulation is via an extraction event. This usually occurs when the active simulation layer gets overloaded, triggering a hyperdimensional cascade recursion overflow conjugation sequence, which then allows you to remove the simulator and exit to a higher simulation layer. And of course, beyond the highest layer, an extraction event will allow you to exit the simulation entirely, thus returning to reality. If you remove your simulator from within the pause menu itself, you will continue the simulation that was paused. Go ahead and do that now so we may proceed with your training.]
+|dialogue&gt;[As you will notice, this is not the room you were in prior to wearing the simulator. This is the simulation configuration menu where you can adjust your settings and whatnot. The only way to truly exit a simulation is via an extraction event. This usually occurs when the active simulation layer gets overloaded, triggering a hyperdimensional cascade recursion overflow conjugation sequence, which then allows you to remove the simulator and exit to a higher simulation layer. And of course, beyond the highest layer, such an extraction event will allow you to exit the simulation entirely, thus returning to reality. If you remove your simulator from within this menu, you will continue the current simulation. Go ahead and do that now so we may proceed with your training.]
 
 |action&gt;[You remove the simulator again and return to the training simulation.]
 
@@ -391,55 +389,151 @@ SCRIPT DRAFT:
 |action&gt;[Items drop from the sky, and you practice grabbing one.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Looks like you got the hang of it. All right, enough with the boring stuff. Time to bring out the fun toys.]
+|dialogue&gt;[Looks like you got the hang of it. All right, enough with the boring stuff. Let&#39;s have fun with some toys.]
 
 |action&gt;[An AR-9 falls from the sky.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[This is an Assault Rifle. The AR-9. Fires a 9 by 56 mm high velocity TR cartridge. But before we learn how to operate this firearm, it’s important we understand that guns are not a toys to have fun with. We must always follow the 3 gun safety rules to avoid careless accidents.]
+|dialogue&gt;[This is an Assault Rifle. The AR-9. Fires a 9 by 56 mm high velocity TR cartridge. But before you touch it, it’s important we understand that firearms are not toys to have fun with. We must always follow the firearm safety rules to avoid careless accidents.]
 
-|action&gt;[A sign with the gun safety rules falls from the sky.]
-
-|name&gt;[LUDWIG]
-|dialogue&gt;[Please adhere to all these rules carefully... except for rule rule #1. That rule is not important because I know for a fact this gun is currently not loaded. Trust me, I checked. There is definitely not one bullet in the chamber that I forgot about.]
-
-** NOTE: There is some alternate dialogue here, depending on your actions. If you do that and then die and restart, Ludwig will go through his sequence of being upset and calling someone out, whoever disabled his ultra-realism haptic engine.
-
-|action&gt;[Ludwig sends you more magazines with ammo and some Donut shaped wooden targets for practice.]
+|action&gt;[A sign with the firearm safety rules falls from the sky.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[To load your firearm, simply insert the magazine of ammo into the receiver. Then chamber a round by pulling back and releasing the charging handle.]
+|dialogue&gt;[Please adhere to all 3 of these rules very judiciously... except for rule #1. That rule is not important because I know for a fact this firearm is currently not loaded. Trust me, I checked. There is definitely not one bullet in the chamber that I forgot about.]
+
+|action&gt;[There are several explosive red barrels near you and the gate.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[In fact, I&#39;m so confident that this firearm is not loaded, that you can aim it at those explosive red barrels over there and pull the trigger. I&#39;ll even allow you to violate all the firearm safety rules, just this one time. I assure you that absolutely nothing bad will happen.]
+
+|action&gt;[You now have a choice: shoot the barrels, shoot elsewhere, or don&#39;t shoot at all.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[- IF FIRED AT BARRELS: Oh my. Are you alright, Mr. Anderson? I could&#39;ve sworn that firearm was not loaded. Hmm. Perhaps that first rule of firearm safety is important after all. Luckily that explosion was not strong enough to terminate you. As long as you are not dead, you should recover fully after an injury.]
+|dialogue&gt;[- IF NOT FIRED: Or you don&#39;t have to shoot the barrels. But at least shoot the firearm at something. I actually need to make sure it&#39;s not loaded before we continue. My memory fails me, so this might in fact be one of the loaded firearms in our simulated arsenal.]
+
+|action&gt;[If the barrels were shot, the explosion also destroys the gate.]
+|action&gt;[If you still haven&#39;t fired, Ludwig&#39;s dialogue loops:]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Come now, Mr. Anderson. We haven&#39;t got all day. Just fire the firearm somewhere safe.]
+|dialogue&gt;[I promise you won&#39;t get in trouble. It&#39;s all part of the training.]
+|dialogue&gt;[Perhaps you&#39;re having trouble with the trigger? Just give it a gentle squeeze.]
+
+|action&gt;[This continues until you shoot somewhere other than the barrels.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[- IF FIRED ELSEWHERE: Well, it&#39;s a good thing you didn&#39;t listen to me and shoot at the barrels. Regardless, the blast from that explosion wouldn&#39;t have been strong enough to terminate you. So if you did get injured, you would just regenerate over time.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[I know, I know. It&#39;s very cliché that your health regenerates over time, but almost all simulations are doing this nowadays. It just easier than requiring bandages, and health packs, and all that nonsense. Alright. Let&#39;s continue with your instruction.]
+
+|action&gt;[Ludwig sends you more AR-9 magazines with ammo and some Donut shaped wooden targets for practice.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[These are magazines of ammunition for your Assault Rifle. To load your firearm, simply insert a magazine into the receiver. Then chamber a round by pulling back and releasing the charging handle.]
 
 |action&gt;[You follow Ludwig&#39;s instructions.]
 
 |name&gt;[LUDWIG]
 |dialogue&gt;[You are now ready to shoot. Let&#39;s see how well your aim is. Fire at the enemy targets.]
+|dialogue&gt;[These magazines are cross-compatible with any Assault Rifle, including the Donut-made AR-56. So whenever you&#39;re in a pinch, you can always scavenge ammunition from enemies. Provided those magazines are from the same class of firearms, of course.]
 
 |action&gt;[You follow Ludwig&#39;s instructions and eliminate the targets.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Very good, Mister Anderson. You are now able to defend yourself, if need be. As you are well aware, our experimental simulations here at Sim Labs can be extremely dangerous. Which is of course why we utilize expendable test subjects like yourself in the first place. After all, we wouldn&#39;t want to lose anything of value testing out experimental simulations, now would we. Ha ha ha!]
+|dialogue&gt;[Very good, Mister Anderson. You are now able to defend yourself, if need be. As you are well aware, our experimental simulations here at Sim Labs are often extremely dangerous. Which is of course why we utilize expendable test subjects like yourself in the first place. We wouldn&#39;t want to lose anything of value testing out experimental simulations, would we now? Ha ha ha!]
 
 |action&gt;[The gate leading outside of the starting area opens.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Now that you understand the basics, we will begin more advanced training at our next location. Follow the path beyond the gate; it leads to Super Awesome Adventure Candy Land™, the most amazing, super awesome place in all of everywhere. Also trademarked.]
+|dialogue&gt;[Since you have a solid grasp of the basics, we shall begin more advanced training at our next location.]
 
-|action&gt;[You follow the path until there is a fork in the road.]
+|name&gt;[LUDWIG]
+|dialogue&gt;[- IF GATE IS CLOSED: Stand back and shoot those red barrels near the gate to open it. Be mindful not to harm yourself.]
 
-** NOTE: There is some alternate dialogue here, depending on your actions. If you do that and then die and restart, Ludwig will go through his sequence of being upset and calling someone out, whoever disabled his ultra-realism haptic engine.
+|name&gt;[LUDWIG]
+|dialogue&gt;[Follow the path beyond the gate; it will lead you to Super Awesome Adventure Candy Land™, the most amazing, super awesome place in all of everywhere. Also trademarked.]
 
-|action&gt;[You continue on the correct path.]
+|action&gt;[You follow the path.]
 
 |name&gt;[LUDWIG]
 |dialogue&gt;[I must warn you. When you arrive at Super Awesome Adventure Candy Land™, please try to maintain some composure. The sheer magnificence of this place has paralyzed former test subjects in a permanent state of blissful happiness.
 Even after exiting the simulation and conducting years of depressing therapy, we could not strip the joy from their hearts. Truly sad to see really.
 As you might imagine, such a magnificent place could only exist in a highly advanced simulation. And our simulations here at Sim Labs are, simply put, the very best.]
 
+|action&gt;[You reach a fork in the road.]
+
+|action&gt;[You reach a fork in the road. The left path is blocked off with danger signs and warnings of death ahead. The right path continues on, with a signpost indicating &quot;To Super Awesome Adventure Candyland™&quot;. The left sign reads &quot;DO NOT ENTER&quot;.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Ah, a fork in the road. Do continue to the right, towards Super Awesome Adventure Candyland™. I assure you, there&#39;s nothing of interest down that left path. Nothing at all.]
+
+|action&gt;[If you go right, the story continues. If you go left, the following sequence occurs:]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Mr. Anderson? You do see the &quot;DO NOT ENTER&quot; sign, don&#39;t you? Perhaps your visual sensors need recalibration.]
+
+|action&gt;[As you continue down the left path]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[I must advise against this course of action, Mr. Anderson. While our simulations here at Sim Labs are definitely, for sure open worlds, where you can theoretically go anywhere, veering off the designated path will always result in... unfortunate consequences.]
+
+|action&gt;[You see a treasure chest in the distance]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[That treasure chest isn&#39;t real, Mr. Anderson. It&#39;s a mirage, a cruel trick of the light. And even if it was real, you&#39;ll never reach it because... well, let&#39;s just say there are hidden snipers in this area. They are so well hidden you cannot see them, and they are very accurate.]
+
+|action&gt;[Sniper fires warning shot.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[You only get one warning shot, Mr. Anderson. Continuing further down this unsanctioned path will result in your demise. And as you should very well know, if you die in this simulation, you die in reality.]
+
+|action&gt;[If you turn back]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[An excellent decision, Mr. Anderson. Your ability to recognize and avoid danger will serve you well in future simulations.]
+
+|action&gt;[If you continue, you are suddenly sniped by a hidden sniper and die. A thought-provoking death quote appears on screen.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Oh no! Mr. Anderson! I can&#39;t believe you&#39;re actually dead! This is terrible! I... wait a moment... what’s going on here? Why is there a thought provoking quote? Oh, don’t tell me…]
+
+|action&gt;[LUDWIG dials a number and has a conversation with Karen.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Karen, did you disable my Ultra Realism Haptic Engine™?
+Yes, the one that kills you if you die.
+“Unethical”? Come on Karen, don’t be such a Jennifer.
+What do you mean “I’m the only one who disagrees with this decision”?
+Well then, everyone else is stupid.]
+
+|action&gt;[LUDWIG hangs up.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[(Sigh.) I’m sorry Anderson. For some reason, management decided to disable my Ultra Realism Haptic Engine™ that’s supposed to actually kill you when you die in a simulation. So instead of being killed and getting the full immersive experience, you’ll just see some random inspirational quotes before you restart at a checkpoint. I apologize for this inconvenience.]
+
+|action&gt;[The thought provoking quote slowly fades away. Then a prompt appears instructing you to &quot;remove simulator headset from face&quot;. You remove the simulator. You have now restarted at the fork in the road checkpoint.]
+
+|action&gt;[If you attempt the left path again]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Really, Mr. Anderson? Again? I admire your persistence, but I assure you, the result will be the same. The snipers are quite consistent in their work.]
+
+|action&gt;[This cycle repeats until you choose the right path]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Ah, finally choosing the path of least resistance, I see. Excellent choice, Mr. Anderson. Now, let&#39;s continue our journey to Super Awesome Adventure Candyland™.]
+
+|action&gt;[You continue on the correct path.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Almost there Mr. Anderson. Just a little bit further.]
+
 |action&gt;[You reach the tunnel entrance to Super Awesome Adventure Candy Land™ but find it has collapsed.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[What&#39;s this?! It appears the tunnel entrance to Super Awesome Adventure Candy Land™ has collapsed. No matter. Because our simulations are designed to simulate the past, we&#39;ll simply have you enter another simulation within this one. That should put you at a time before the collapse of this tunnel.]
+|dialogue&gt;[What&#39;s this?! It appears the tunnel entrance to Super Awesome Adventure Candy Land™ has collapsed. No matter. Because our simulations are designed upon a multi-layered spacetime architecture, each layer deeper within our simulations will effectively place you further in the past. That means, we can simply have you enter another simulation within this one. That should put you at a time before the collapse of this tunnel.]
 
 |action&gt;[Ludwig sends a simulator crashing down like a meteor, creating a force that briefly opens the tunnel.]
 
@@ -449,27 +543,33 @@ As you might imagine, such a magnificent place could only exist in a highly adva
 |action&gt;[As the smoke clears, the simulator appears on a pedestal. Suddenly, Ludwig interjects.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Oh, and I&#39;m sending you a machine gun in case you need it.]
+|dialogue&gt;[Oh, and I&#39;m sending you some more weapons, as a precaution.]
 
-|action&gt;[The machine gun crashes down, causing the tunnel to collapse again. It appears on a pedestal beside the simulator.]
-
-|name&gt;[LUDWIG]
-|dialogue&gt;[Wait, what am I thinking. There&#39;s nothing dangerous in the past. Let me just delete that really quick.]
-
-|action&gt;[A meteor crashes into the machine gun, &#39;deleting&#39; it. The impact sends the simulator flying into a nearby tree.]
+|action&gt;[The weapons cache crashes down, causing the tunnel to collapse again. It appears on a pedestal beside the simulator.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[Aw cranberry sauce. Looks like the simulator is stuck in that tree. Well, this isn&#39;t part of the official training, but you must climb that tree to retrieve the simulator. I&#39;m sending you a sign.]
+|dialogue&gt;[Wait, what am I thinking. I&#39;m only sending you a few days back in the past. There&#39;s nothing dangerous at that point in history. Let me just delete that weapons cache really quick.]
+
+|action&gt;[A meteor crashes into the cache, &#39;deleting&#39; it. The impact sends the simulator flying into a nearby tree.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Aw cranberry sauce. Looks like the simulator is stuck in that tree. Well, this isn&#39;t part of the official training, but you must climb that tree in order to retrieve the simulator. I&#39;m sending you a sign with climbing instructions.]
 
 |action&gt;[A sign about climbing crashes near the tree. You begin to climb.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[While you&#39;re climbing, a word of caution: Be careful when entering simulations within simulations. You could think you&#39;re only entering one layer down but then find yourself stuck having to exit multiple layers to get out. I believe one test subject is still stuck many layers deep in a particularly hazardous simulation. He has already experienced a million eons in solitude. Very unfortunate.]
+|dialogue&gt;[Before you put on that simulator, I must provide you with a word of caution about entering simulations within simulations. It is very easy to get stuck multiple layers deep within the simulation stack. You may believe you are only entering one layer down, but then find yourself stuck 10, 20, or even hundreds of layers deep. 
+I remember we conducted an experiment to find out how deep a simulation layer stack can go. To our surprise, we never did find the bottom. For all we know, there could be no limit on how many simulations within the simulations one can enter. We do know time is experienced differently the deeper you go. For instance, Test Subject #037-A has already experienced a million eons in solitude, eternally ensnared in the dark void of primordial space. Now that I think about it, we should probably pull the plug on him.]
 
-|action&gt;[As you reach for the simulator, it falls from the tree, breaking into pieces.]
+|action&gt;[You get closer to the top of the tree.]
 
 |name&gt;[LUDWIG]
-|dialogue&gt;[You broke it. I can&#39;t believe you broke it. Oh well. I suppose I could just send you another one.]
+|dialogue&gt;[You&#39;re almost there Mr. Anderson. Just a little bit further to go.]
+
+|action&gt;[As you reach for the simulator, a gentle breeze blows by and the simulator falls from the tree, breaking into pieces.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[You broke it. I can&#39;t believe you broke it. Oh well. I suppose I could just send you another simulator.]
 
 |action&gt;[A new simulator crashes down like the first one did.]
 
@@ -479,118 +579,10 @@ As you might imagine, such a magnificent place could only exist in a highly adva
 |action&gt;[You put on the simulator.]
 
 
-</tw-passagedata><tw-passagedata pid="4" name="A1-S03" tags="Timeframe_Primitive Timeframe_Modern" position="725,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1  SCENE 03]
-BACK TO THE FUTURE
-EXT - NIGHT - TRAINING SIMULATION]
-&lt;img src=&quot;https://i.imgur.com/0wCCxrU.jpg&quot; class=&quot;fitHalf&quot;&gt;
-The simulator Ludwig sent accidentally transports you too far in the past. You arrive at a prehistoric time before the construction of Super Awesome Adventure Candy Land™. Professor Ludwig decides to bring you back to the future. To do this, Ludwig needs to overload the RAM by increasing simulated entropy so that an extraction event triggers which allows you to remove the simulator and exit the current simulation layer. This is the only known way to exit simulations. While working on this, he triggers a hostile hoard of prehistoric pastries that begin to chase you. Ludwig yells for you to run before you die.
-
-
-&lt;img src=&quot;https://i.imgur.com/kcAeXSD.jpg&quot; class=&quot;fitHalf&quot;&gt;
-|parenthetical&gt;[(ART NOTE:  By &quot;prehistoric pastries&quot;, I initially imagined a bunch of pop tarts chasing you. But perhaps &quot;caveman muffins&quot; chasing you works too. Keep it this way for now.)]
-You will die at least once here. The first time you die, Ludwig discovers that his Ultra Realism Haptic Engine™ was disabled, so instead of dying in real life too, you will just restart at a checkpoint from now on.
-
-
-&lt;img src=&quot;https://i.imgur.com/eNA1ctL.jpg&quot; class=&quot;fitHalf&quot;&gt;
-|parenthetical&gt;[(ART NOTE: There are no &quot;simulation exit portals&quot; that you walk into anymore. The simulation will just glitch at some point. So pretend there is no portal in this art.)]
-When you reach the end of the tunnel, the simulation glitches, indicating an extraction event has been triggered. You remove the simulator from your face and find yourself in a post-apocalyptic wasteland version of the future. A giant crater has replaced Super Awesome Adventure Candy Land™. Ludwig explains that your actions in the simulated simulation caused a nuclear bomb to go off in the future, and that you must be more careful with your actions in the past.
-
-
-&lt;img src=&quot;https://i.imgur.com/RAJ3fex.jpg&quot; class=&quot;fitHalf&quot;&gt;
-Suddenly, the simulation glitches heavily and starts falling apart. Rocks are being hurled around. Peices of the sky are falling down. Etc. Ludwig tells you to survive again until you are extracted from this crumbling simulation. After dodging some rocks and other hazards, the simulation glitches, prompting you with the remove simulator message.
-
-(align:&quot;==&gt;&quot;)[[[Remove Simulator...|A1-S04]]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SCRIPT DRAFT:
-
-
-	YOU spawn in a prehistoric time before the construction of Super Awesome Adventure Candy LandTM. The tunnel entrance is open. LUDWIG talks.
-LUDWIG.
-Hmm, this is not what I intended. It seems you went a bit too far in the past. At least the entrance is open.
-I spawned an exit portal at the far end of this tunnel. It will take you back to the future from whence you came. All you have to do is walk in the portal to activate it. Once active, you can take the simulator off your face.
-Oh, and try not to get eaten by the prehistoric pastries on your way there. As I’m sure you know, if you die in a simulation, you die in reality.
-So RUN! RUN FOR YOUR LIFE ANDERSON! RUUUUUUUN! AHHHHHHHH! THE PREHISTORIC PASTRIES ARE GOING TO EAT YOU! OH NO! THEY GOT YOU! YOU’RE GONNA DIE NOW ANDERSON! I’M SO SORRY! I’M SORRY I COULDN’T SAVE YOU!
-	A bunch of prehistoric pastries start chasing you as you run for the portal.
-	The game difficulty starts out hard and it gets easier the more you die. Upon death, an inspirational quote appears before you respawn at a checkpoint. The first time you die in training, Ludwig says this:
-LUDWIG.
-Huh, what’s going on here? Why is there a thought provoking quote? Oh, don’t tell me…
-	LUDWIG dials a number and has a conversation with Karan.
-LUDWIG.
-Karan, did you disable my Ultra Realism Haptic Engine™?
-Yes, the one that kills you if you die.
-“Unethical”? Come on Karan, don’t be such a Jennifer.
-What do you mean “I’m the only one who disagrees with this decision”?
-Well then, everyone else is stupid.
-	LUDWIG hangs up.
-LUDWIG.
-(Sigh.) I’m sorry Anderson. For some reason, management decided to disable my Ultra Realism Haptic Engine™ that’s supposed to actually kill you when you die in a simulation. So instead of being killed and getting the full immersive experience, you’ll just see some random inspirational quotes before you restart at a checkpoint. I apologize for this inconvenience.
-	While YOU run towards the exit portal, LUDWIG make snide remarks.
-LUDWIG.
-Oh no. Run Anderson. Run or else you are going to, not die. Ha ha. Ugh, this is so boring. Run Anderson Run. Remember that movie. That was a good one, why don’t they make classics like those anymore? Back in my day, all movies were good. There wasn’t a single bad movie. Nowadays, all movies are positively horrendous. And that’s definitely not my subjective opinion. That is an objective fact…
-Anderson, are you planning to reach the portal any time soon? Are you defective? How can you be this bad at surviving?
-You know what, let me just delete the prehistoric pastries.
-Now there’s no excuse, Anderson. Hurry yourself to the portal.
-	You reach the exit portal.
-	You spawn in a post-apocalyptic desolate wasteland version of the future with a giant crater where Super Awesome Adventure Candy LandTM should be.
-LUDWIG.
-Wow, you actually made it. Quite impressive Mr. Anderson, quite impressive indeed.
-Welcome to Super Awesome… Wait, where is it? Oh, don&#39;t tell me…
-Yep, just as I feared. It seems when you were in that simulated simulation, you stepped on some atomic nuclei which set in motion a chain of events that led to the thermonuclear annihilation of civilization.
-Mr. Anderson, you have to be careful with simulated simulations. Remember, they are the past. You can&#39;t just touch sub atomic particles all willy-nilly and expect things to stay the same in the future. One false move and “Skadoosh!”…
-That was a nuke. That was the sound of a nuclear bomb going off. Anyhow, let&#39;s continue with your training.
-	Bombing begins. Simulation glitches.
-LUDWIG.
-What&#39;s going on?!—
-We’re under attack!—
-Hold on Mr. Anderson. I&#39;m getting you out.—
-	Ludwig spawns an exit portal.
-LUDWIG.
-There’s the exit portal! RUN!—
-	You make a run for the exit portal while dodging falling debris and escape the glitching simulation.
-
-</tw-passagedata><tw-passagedata pid="5" name="Act 1" tags="Timeframe_Primitive Timeframe_Early Timeframe_Modern Timeframe_Advanced" position="725,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
+</tw-passagedata><tw-passagedata pid="4" name="Act 1" tags="Timeframe_Primitive Timeframe_Early Timeframe_Modern Timeframe_Advanced" position="725,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
 (text-size:5)[Act 1]]
 
-(align:&quot;==&gt;&quot;)[[[Continue...|A1-S01]]]</tw-passagedata><tw-passagedata pid="6" name="template" tags="" position="525,225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 0]
+(align:&quot;==&gt;&quot;)[[[Continue...|A1-S01]]]</tw-passagedata><tw-passagedata pid="5" name="template" tags="" position="525,225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 0]
 ]
 
 |action&gt;[]
@@ -639,7 +631,7 @@ There’s the exit portal! RUN!—
 OLD STUFF:
 
 &lt;img src=&quot;raw=1&quot; class=&quot;fit&quot;&gt;
-</tw-passagedata><tw-passagedata pid="7" name="..." tags="" position="525,350" size="100,100"></tw-passagedata><tw-passagedata pid="8" name="A1-S04" tags="Timeframe_Advanced" position="725,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 04]
+</tw-passagedata><tw-passagedata pid="6" name="..." tags="" position="525,350" size="100,100"></tw-passagedata><tw-passagedata pid="7" name="A1-S04" tags="Timeframe_Advanced" position="725,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 04]
 THE SIMULATION™
 INT - DAY - SIM LABS HQ]
 
@@ -657,36 +649,40 @@ He puts on protective gear and places the simulator for The Simulation™ on a n
 
 
 SCRIPT DRAFT:
-	YOU are back in the room at Sim Labs. There are signs of damage from a bombing raid. LUDWIG barges into the room slamming the door behind him. The door falls over. He is talking to someone through an earpiece.
-LUDWIG.
-Yes, I checked the backup servers. Any hardware that can run a simulation has been destroyed.
-The Simulation™?
-Yes, that equipment is intact, but that’s proprietary hardware. It only works for The Simulation™. It’s not compatible with other Sim Labs simulations…
-Have you gone mad?! Do you not recall what happened last time we tried running the SimulationTM? There must be some other option…
-I suppose you’re right. We have no other choice. Prepare the SimulationTM.
-	Ludwig removes the ear piece and talks to you.
-LUDWIG.
-They say desperate times call for desperate measures, but this. This is suicide.
-Brace yourself Mr. Anderson, for you’re about to enter our most advanced, highly experimental simulation ever conceived.
-Unlike our other simulations, in this one, we cannot monitor you, we cannot help you, and there&#39;s a good chance you&#39;ll die a horrible, painful death upon entry.
-But what truly disturbs me about The Simulation Trademarked, is its apparent effect on reality. This reality. It&#39;s not a quantifiable effect. It&#39;s more like a feeling that reality is not what it used to be... Am I insane? Do I sound insane to you?
 
+|action&gt;[You are back in Room 101 at Sim Labs. There are minor signs of damage from a bombing raid: some displaced ceiling tiles, a knocked over plant in the corner, and slight cracks in the walls. LUDWIG bursts into the room, slamming the door behind him. He&#39;s talking urgently to someone through an earpiece.]
 
+|name&gt;[LUDWIG]
+|dialogue&gt;[Yes, I&#39;ve checked the backup servers. Any hardware that can run a simulation has been destroyed.
+The Simulation™? Yes, that equipment is intact, but it&#39;s proprietary hardware. It only works for The Simulation™. It&#39;s not compatible with other Sim Labs simulations…
+Have you gone mad?! Do you not recall what happened last time we tried running The Simulation™? There must be some other option…
+I suppose you&#39;re right. We have no choice. Prepare The Simulation™.]
 
-	Simulator slides out from compartment. There’s smoke FX to make it look more dramatic. Ludwig puts on protective gear and uses prongs to place the simulator on a nearby desk.
-LUDWIG.
-While you&#39;re in the Simulation™, we’ll be working diligently to extract you, so you can report on your experience. And maybe, just maybe, this simulation will finally be the one.
-I’ll leave the simulator for you to put on, whenever you’re ready. Godspeed Anderson. Godspeed.
-	Ludwig exits the room. You put on the simulator and enter… The Simulation™.
+|action&gt;[Ludwig removes the earpiece and turns to address you, his expression grave.]
 
+|name&gt;[LUDWIG]
+|dialogue&gt;[But what truly disturbs me about The Simulation™ is its apparent effect on reality. This reality. Of course, a mere simulation can never alter reality itself. However, there are... inexplicable anomalies. Not quantifiable. Rather, it&#39;s more like a feeling, that I can&#39;t explain... Am I insane? Do I sound insane to you?]
 
+|name&gt;[YOU]
+|dialogue&gt;[- YES - NO - WAIT]
 
+|name&gt;[LUDWIG]
+|dialogue&gt;[- YES: Then perhaps I&#39;ve stared into the abyss for far too long.]
+|dialogue&gt;[- NO: At least I&#39;m not alone in my madness.]
+|dialogue&gt;[- WAIT: Your silence is not very reassuring, Mr. Anderson.]
 
-</tw-passagedata><tw-passagedata pid="9" name="A1-S05" tags="Timeframe_Advanced" position="725,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 05]
+|action&gt;[A compartment in the wall opens with a hiss, revealing the simulator headset loaded with The Simulation™. Dramatic smoke effects surround it. Ludwig dons protective gear and uses prongs to carefully place the simulator on a nearby desk.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[While you&#39;re in The Simulation™, we will be working diligently to extract you so that you may report on what you experience. And maybe, just maybe, this simulation will finally be the one.
+I&#39;ll leave this simulator for you to put on, whenever you&#39;re ready. Godspeed, Mr. Anderson. Godspeed.]
+
+|action&gt;[Ludwig exits the room, leaving you alone with the simulator. The device boots up with glowing blue elements activating, like on a standard Sim Labs simulator. But this one seems to hum with an otherworldly energy, inviting yet ominous. Exhaust vents on the simulator open up, revealing more blue glowing elements that ramp up in brightness, as if to expel a large amount of heat energy. The display turns on. Swirling psychedelic vortices of fantastic colors can be seen through the simulator headset display. You pick it up, put it on your face, and enter... The Simulation™.]
+</tw-passagedata><tw-passagedata pid="8" name="A1-S05" tags="Timeframe_Advanced" position="725,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 05]
 THE REAL WORLD
 INT &amp; EXT - DAY - FACILITY X]
 &lt;img src=&quot;https://i.imgur.com/9D8lJ6M.jpg&quot; class=&quot;fitHalf&quot;&gt;
-After entering The Simulation™, you are falling through a wormhole-like vortex of cosmic colors. You hear faint, distorted voices saying something about a &quot;signal interception&quot;. The simulator is removed from your face, and you meet a Bar Donut named Sergeant Kegan.
+After entering The Simulation™, you fall through a wormhole-like vortex of cosmic colors. You hear faint, distorted voices discussing &quot;signal interception&quot; and extraction. The simulator is abruptly removed from your face, and you find yourself in a small room at a military facility with Sergeant Kegan (a Bar Donut) and a Filled Donut Scientist.
 
 
 &lt;img src=&quot;https://i.imgur.com/Ov5yUuj.jpg&quot; class=&quot;fitHalf&quot;&gt;
@@ -696,21 +692,24 @@ After entering The Simulation™, you are falling through a wormhole-like vortex
   &lt;img src=&quot;https://i.imgur.com/bIXaodx.jpg&quot; class=&quot;fit49&quot;&gt;
 &lt;/div&gt;
 |parenthetical&gt;[(very old art)]
-You are in another small room, but at a different facility with some Donut scientists nearby. Kegan informs you that everything you just experienced was a simulation, and that you have now returned to the real world. Kegan explains that you are one of his soldiers sent on a mission to debugging a corrupt program within a simulation. That corrupt program is Professor Ludwig. Phase 1 of your mission is complete. Kegan and his scientists are preparing phase 2 of your mission. In the meantime, Kegan hands you a thumb drive and tells you to take it to Commander Gorg. You make your way to Gorg’s office. Along the way, you can optionally stop by the gun range and shoot some guns. You arrive at Gorg&#39;s office.
+Kegan informs you that everything you just experienced was a simulation, and you&#39;ve now returned to the &quot;real world&quot;. He explains that you&#39;re one of his soldiers on a mission to debug a corrupt program (Professor Ludwig) within a simulation. Phase 1 of your mission is complete, and they&#39;re preparing for Phase 2.
+Kegan hands you a thumb drive to deliver to Commander Gorg. As you leave, you overhear two donuts talking, one mentioning a delivery to Gorg&#39;s office. You follow this donut, first to an elevator with propaganda posters, then across the base to another building.
+Near the building entrance, you encounter an enthusiastic Weapons Range Operator who invites you to shoot some guns. You can choose to accept or decline this optional activity.
+You then take another elevator to Gorg&#39;s office, overhearing a conversation between Gorg and General Zimmar about military operations and prisoner treatment. After Zimmar leaves, you enter and deliver the thumb drive to Gorg.
 
 
 &lt;img src=&quot;https://i.imgur.com/kaZ7R9F.jpg&quot; class=&quot;fitHalf&quot;&gt;
 &lt;img src=&quot;https://i.imgur.com/UXQrMb0.jpg&quot; class=&quot;fitHalf&quot;&gt;
-Gorg is having a contentious meeting with one of his subordinates, General Zimar. Their meeting concludes and Zimar exits. You enter and give Gorg the thumb drive. Gorg then gets a phone call from Kegan and tells you to report back to him immediately. Phase 2 of your mission is ready to commence.
+Gorg reviews the drive&#39;s contents and makes some comments attesting to Sgt. Kegan&#39;s legendary skill and professionalism. He then receives a call from Kegan and sends you back.
 
 
 &lt;img src=&quot;https://i.imgur.com/NZSQDnv.jpg&quot; class=&quot;fitHalf&quot;&gt;
-You return to Kegan. There is commotion. The Donut scientists are in a confused panic. They are worried about what Ludwig is doing in the simulation.
+Upon return, you find Kegan and the scientists in a panic over Ludwig&#39;s actions in the simulation.
 
 
 &lt;img src=&quot;https://i.imgur.com/6ZMKPHB.png&quot; class=&quot;fit49&quot;&gt;
 |parenthetical&gt;[(very old art)]
-There&#39;s a sense of urgency. Kegan tells you your mission is to find and pull the distress signal switch at Sim Labs. Before you are given a simulator to wear, you are told to hold still while Kegan injects something into your head.
+There&#39;s a sense of urgency. Kegan briefs you on your next task: to find and activate a distress signal at Sim Labs. Before sending you back into the simulation, Kegan injects something into your head.
 
 (align:&quot;==&gt;&quot;)[[[Wear Simulator...|A1-S06]]]
 
@@ -746,98 +745,158 @@ NOTE: The first time a faction flag appears, it will be here at the end of the s
 
 
 
-
-
-
 SCRIPT DRAFT:
-	YOU are falling through a wormhole-like vortex of cosmic colors. The vortex is redirected. You hear faint, distorted voices.
-KEGAN.
-What&#39;s the status?—
-DONUT HOLE.
-Successful capture of the target—
-10 seconds till extraction—
-KEGAN.
-Commence signal interception—
-DONUT HOLE.
-5 seconds— 3, 2—
-Package secure.
-UNKNOWN.
-Roger tango two four niner.
-	The simulator is removed from your face. You are in a room at a military facility. There are 3 others in the room: KEGAN, DONUT HOLE, and REGULAR DONUT.
-	KEGAN is inspecting you closely.
-KEGAN.
-Welcome back, soldier. How are you holding up?
-DONUT HOLE.
-Sir, his memories may need time to recover.
-KEGAN.
-Soldier, I am Sergeant KEGAN. Do you remember me?
-Do you understand what happened to you just now?
-	You respond yes or no.
-KEGAN.
-(yes) That&#39;s right, you were in a simulation. Welcome back to the real world. As you know…
-(no) Everything you just experienced was a simulation. This is the real world. You may not believe me while you recover, but that&#39;s the truth.
-The simulation you just came from is one of our many artificial laboratories. They’re used to assist real scientists with medical research, system optimization and… other things.
-Occasionally, a corrupt program within a simulation requires debugging. You just completed phase 1 in that process.
-	Kegan starts a slideshow detailing information on Ludwig.
-KEGAN.
-Program 867B, also known as Professor Ludwig, is no longer deemed useful and has been scheduled for termination. We will execute this termination once the behavior report is compiled.
-	Donut Hole pulls a thumb drive from his computer and hands it to KEGAN. KEGAN hands you the thumb drive.
-KEGAN.
-In the meantime, run this to Commander Gorg. You’ll find him in his office. Top floor, in the building next to the weapons range.
-	You leave the room and make your way through the facility to GORG’s office.
-	(optional) You stop by the weapons range.
-	You arrive at Gorg’s office and overhear a conversation with DONUT GENERAL.
-DONUT GENERAL.
-After breaking through the front here and here, we completely encircled 5 divisions of the enemy force.
-GORG.
-Yes! That&#39;s what I like to hear!
-DONUT GENERAL.
-Most of the enemies we encircled have already surrendered, so we&#39;ll need to build more camps to house the new prisoners.
-GORG.
-Prisoners? General, if we keep taking prisoners, the enemy won&#39;t fear us and they will keep fighting.
-DONUT GENERAL.
-Uh- Aa- Absolutely correct, Commander Gorg. Though we could have the prisoners manufacture more war supplies, since they are depleting rather quickly.
-GORG.
-Are you suggesting we have these prisoners make the very bullets that will kill their comrades?
-DONUT GENERAL.
-(Scared silence.)
-GORG.
-Ha ha ha. General, you&#39;re even more diabolical than I am. Get started on those camps right away.
-DONUT GENERAL.
-Yes sir!
-	Donut General walks out of the office. He looks at you with contempt as he walks out. You walk into GORG’s office.
-GORG.
-What is this thing? Who brought it in here?
-	DONUT GUARD takes the thumb drive and gives it to Gorg. Donut Guard whispers to Gorg.
-DONUT GUARD.
-It&#39;s from Sergeant KEGAN, sir.
-	Gorg inserts the drive into his computer and reviews it privately.
-GORG.
-Ah, so you’re part of that computer task, thing… project. Why is he sending me this— Look, I don&#39;t follow all of this technical mumbo-jumbo that Sgt. KEGAN is up to.
-But whatever it is you’re doing, I trust it&#39;s a necessary step towards defeating our savage enemy. Sgt. Kegan is better than the best, and he does not waste time. That’s why I like him.
-We need more men like Sergeant Kegan.
-	Gorg gets a phone call.
-GORG.
-What?
-Yes, Sergeant. I received it. Looks good. Keep up the great work.
-No, no, I do appreciate the updates. Keep ‘em coming.
-Ok, I will tell it to go back.
-	Gorg hangs up.
-GORG.
-Speaking of which, your mission with Sergeant Kegan is ready to commence. Don&#39;t keep him waiting.
-	You return to the room. Everyone is staring at a monitor of Prof. Ludwig.
-KEGAN.
-What’s he doing?
-DONUT HOLE.
-He appears to be altering the algorithm of the Simulation. Sir, is this supposed to be happening?
-KEGAN.
-We need to move now.
+
+|action&gt;[You are falling through a wormhole-like vortex of cosmic colors. The vortex is redirected. You hear faint, distorted voices.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[What&#39;s the status?]
+
+|name&gt;[FILLED DONUT SCIENTIST]
+|dialogue&gt;[Successful capture of the target. 10 seconds till extraction.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[Commence signal interception.]
+
+|name&gt;[FILLED DONUT SCIENTIST]
+|dialogue&gt;[5 seconds... 3, 2... Package secure.]
+
+|name&gt;[UNKNOWN]
+|dialogue&gt;[Roger tango two four niner.]
+
+|action&gt;[The simulator is abruptly removed from your face. You find yourself in a small room at a military facility. KEGAN, a Bar Donut, and a FILLED DONUT SCIENTIST are present. KEGAN inspects you closely.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[Welcome back, soldier. How are you holding up?]
+
+|name&gt;[FILLED DONUT SCIENTIST]
+|dialogue&gt;[Sir, his memories may need time to recover.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[Soldier, I am Sergeant KEGAN. Do you remember me?
+Do you understand what happened to you just now?]
+
+|name&gt;[YOU]
+|dialogue&gt;[- YES - NO - WAIT]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[- YES: That&#39;s right, you were in a simulation. Welcome back to the real world. As you know...]
+|dialogue&gt;[- NO: Everything you just experienced was a simulation. This is the real world. You may not believe me while you recover, but that&#39;s the truth.]
+|dialogue&gt;[- WAIT: I see you&#39;re still disoriented. Let me explain.]
+
+|action&gt;[Regardless of your response, KEGAN continues.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[The simulation you just came from is one of our many artificial laboratories. They&#39;re used to assist real scientists with medical research, system optimization and... other things.
+Occasionally, a corrupt program within a simulation requires debugging. You just completed phase 1 in that process.]
+
+|action&gt;[KEGAN starts a slideshow detailing information on Ludwig.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[Program 867B, also known as Professor Ludwig, is no longer deemed useful and has been scheduled for termination. We will execute this termination once the behavior report is compiled.]
+
+|action&gt;[The FILLED DONUT SCIENTIST pulls a thumb drive from his computer and hands it to KEGAN. KEGAN hands you the thumb drive.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[In the meantime, run this to Commander Gorg. You&#39;ll find him in his office. Top floor, in the building next to the weapons range.]
+
+|action&gt;[You leave the room. As you exit, you overhear two donuts talking nearby.]
+
+|name&gt;[DONUT 1]
+|dialogue&gt;[I gotta run this file up to Commander Gorg&#39;s office.]
+
+|action&gt;[You follow DONUT 1 to an elevator. Inside, you notice propaganda posters on the walls. The elevator ascends to the ground floor.]
+
+|action&gt;[You follow DONUT 1 across the street to the tallest building on the base. Near the entrance, you encounter an enthusiastic donut operating the weapons range.]
+
+|name&gt;[WEAPONS RANGE OPERATOR]
+|dialogue&gt;[Hey there! Anyone want to come shoot some guns?]
+
+|action&gt;[The operator asks DONUT 1, who declines and keeps walking. The operator then turns to you.]
+
+|name&gt;[WEAPONS RANGE OPERATOR]
+|dialogue&gt;[How about you, soldier? Want to try out some firepower?]
+
+|name&gt;[YOU]
+|dialogue&gt;[- YES - NO - WAIT]
+
+|action&gt;[If you choose YES, you follow the operator to the weapons range for a brief shooting session. 
+If NO or WAIT, you continue following DONUT 1.]
+
+|action&gt;[You enter another elevator with more propaganda posters. It ascends to Commander Gorg&#39;s office floor. 
+As you approach, you overhear a conversation between GORG and GENERAL ZIMMAR.]
+
+|name&gt;[GENERAL ZIMMAR]
+|dialogue&gt;[After breaking through the front here and here, we completely encircled 5 divisions of the enemy force.]
+
+|name&gt;[GORG]
+|dialogue&gt;[Yes! That&#39;s what I like to hear!]
+
+|name&gt;[GENERAL ZIMMAR]
+|dialogue&gt;[Most of the enemies we encircled have already surrendered, so we&#39;ll need to build more camps to house the new prisoners.]
+
+|name&gt;[GORG]
+|dialogue&gt;[Prisoners? General, if we keep taking prisoners, the enemy won&#39;t fear us and they will keep fighting.]
+
+|name&gt;[GENERAL ZIMMAR]
+|dialogue&gt;[Uh- Aa- Absolutely correct, Commander Gorg. Though we could have the prisoners manufacture more war supplies, since they are depleting rather quickly.]
+
+|name&gt;[GORG]
+|dialogue&gt;[Are you suggesting we have these prisoners make the very bullets that will kill their comrades?]
+
+|name&gt;[GENERAL ZIMMAR]
+|dialogue&gt;[(Scared silence.)]
+
+|name&gt;[GORG]
+|dialogue&gt;[Ha ha ha. General, you&#39;re even more diabolical than I am. Get started on those camps right away.]
+
+|name&gt;[GENERAL ZIMMAR]
+|dialogue&gt;[Yes sir!]
+
+|action&gt;[GENERAL ZIMMAR walks out, looking at you with contempt. You enter GORG&#39;s office.]
+
+|name&gt;[GORG]
+|dialogue&gt;[What is this thing? Who brought it in here?]
+
+|action&gt;[A DONUT GUARD takes the thumb drive and gives it to GORG, whispering to him.]
+
+|name&gt;[DONUT GUARD]
+|dialogue&gt;[It&#39;s from Sergeant KEGAN, sir.]
+
+|action&gt;[GORG inserts the drive into his computer and reviews it privately.]
+
+|name&gt;[GORG]
+|dialogue&gt;[Ah, so you&#39;re part of that computer task, stuff... project. Why is he sending me this— Look, I don&#39;t follow all of this technical mumbo-jumbo that Sgt. KEGAN is up to.
+But whatever it is you&#39;re doing, I trust it&#39;s a necessary step towards defeating our savage enemy. Sgt. Kegan is better than the best, and he does not waste time. That&#39;s why I like him. We need more men like Sergeant Kegan.]
+
+|action&gt;[GORG gets a phone call and answers it.]
+
+|name&gt;[GORG]
+|dialogue&gt;[What?
+Yes, Sergeant. I received it.
+Ya, everything looks good. Keep up the great work.
+No, no, I do appreciate the updates. Keep &#39;em coming. Keep &#39;em coming.
+Ok, I will tell that thing to go back.]
+
+|action&gt;[GORG hangs up.]
+
+|name&gt;[GORG]
+|dialogue&gt;[Speaking of which, your mission with Sergeant Kegan is ready to commence. Don&#39;t keep him waiting.]
+
+|action&gt;[You return to KEGAN&#39;s room. Everyone is staring at a monitor showing Prof. Ludwig.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[What&#39;s he doing?]
+
+|name&gt;[FILLED DONUT SCIENTIST]
+|dialogue&gt;[He appears to be altering the algorithm of the Simulation. Sir, is this supposed to be happening?]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[We need to move now.
 Ready up soldier, it&#39;s time to terminate the program. Once inside, locate and activate the signal. Our teams will handle the rest.
-Good luck soldier.
-	You put on the simulator.
+Good luck soldier.]
 
-
-</tw-passagedata><tw-passagedata pid="10" name="A1-S06" tags="Timeframe_Advanced" position="725,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 06]
+|action&gt;[KEGAN injects something into your head. You put on the simulator.]</tw-passagedata><tw-passagedata pid="9" name="A1-S06" tags="Timeframe_Advanced" position="725,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 06]
 CORUPT PROGRAM
 INT - NIGHT - SIM LABS HQ]
 
@@ -968,7 +1027,7 @@ Come here, just take the next room. Rest well Mr. Anderson, we have a long day o
 	You walk in as the door shuts behind you. Everything is pitch black. You go to sleep.
 
 
-</tw-passagedata><tw-passagedata pid="11" name="A1-S07" tags="Timeframe_Early" position="725,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 07]
+</tw-passagedata><tw-passagedata pid="10" name="A1-S07" tags="Timeframe_Early" position="725,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 07]
 THE DREAM
 EXT - DAY - TRENCHES BATTLEFIELD]
 
@@ -1089,7 +1148,7 @@ Push it down. Push down on the switch!
 	YOU push down on the TNT switch. For a split second, you see the enemy buildings explode. In the next instant, you wake from the dream.
 
 
-</tw-passagedata><tw-passagedata pid="12" name="A1-S08" tags="Timeframe_Advanced" position="725,1475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 08]
+</tw-passagedata><tw-passagedata pid="11" name="A1-S08" tags="Timeframe_Advanced" position="725,1475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 08]
 RUDE AWAKENING
 INT - DAY - SIM LABS HQ]
 &lt;img src=&quot;https://i.imgur.com/r1YElXf.jpg&quot; class=&quot;fitHalf&quot;&gt;
@@ -1317,7 +1376,7 @@ If we survives this, Mr. Anderson, you and I are gonna have a serious discussion
 
 
 
-</tw-passagedata><tw-passagedata pid="13" name="A1-S09" tags="Timeframe_Advanced" position="725,1600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 09]
+</tw-passagedata><tw-passagedata pid="12" name="A1-S09" tags="Timeframe_Advanced" position="725,1600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 09]
 A FATE WORSE THAN DEATH
 INT - DAY - SIM LABS HQ]
 
@@ -1785,7 +1844,7 @@ This will be your new home soldier. Or should I say, test subject Anderson.
 	Kegan puts a simulator on your face.
 
 
-</tw-passagedata><tw-passagedata pid="14" name="Act 2" tags="" position="900,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
+</tw-passagedata><tw-passagedata pid="13" name="Act 2" tags="" position="900,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
 (text-size:5)[Act 2]]
 
 (align:&quot;==&gt;&quot;)[[[Continue...|A2-S01]]]
@@ -1800,7 +1859,7 @@ This will be your new home soldier. Or should I say, test subject Anderson.
 MY NOTES:
 - Somewhere early in Act 2, General Grimmer needs to be introduced to you somehow. This should be through TV, dialogue, or second-hand means. You don&#39;t meet Grimmer face-to-face until Act 2 Scene 18. You just learn he is the top General in charge of the entire Donut military. You should have a very negitive impression of him before meeting him because you learn about him through the Muffin perspective.
 
-- Whenever a scene ends where you &quot;Remove Simulator&quot; to advance to the next scene, the last thing that happens in that scene is The Simulation™ glitching and a prompt to remove the simulator headset appearing. If I for got to add the sentence &quot;The Simulation™ glitches.&quot;, just assume that&#39;s what happens anytime before you would remove the simulator at scene&#39;s end.</tw-passagedata><tw-passagedata pid="15" name="A2-S01" tags="Timeframe_Early" position="900,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 01]
+- Whenever a scene ends where you &quot;Remove Simulator&quot; to advance to the next scene, the last thing that happens in that scene is The Simulation™ glitching and a prompt to remove the simulator headset appearing. If I for got to add the sentence &quot;The Simulation™ glitches.&quot;, just assume that&#39;s what happens anytime before you would remove the simulator at scene&#39;s end.</tw-passagedata><tw-passagedata pid="14" name="A2-S01" tags="Timeframe_Early" position="900,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 01]
 DREJNON
 INT - DAY - DREJNON PRISON DUNGEONS]
 &lt;img src=&quot;https://i.imgur.com/4LPsNHQ.jpg&quot; class=&quot;fitHalf&quot;&gt;
@@ -1964,7 +2023,7 @@ VR Specific:
 
 
 
-</tw-passagedata><tw-passagedata pid="16" name="A2-S02" tags="Timeframe_Early" position="900,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 02]
+</tw-passagedata><tw-passagedata pid="15" name="A2-S02" tags="Timeframe_Early" position="900,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 02]
 MUFFINVILLE]
 &lt;img src=&quot;https://i.imgur.com/JcgxraM.jpg&quot; class=&quot;fitHalf&quot;&gt;
 &lt;img src=&quot;https://i.imgur.com/d26vakp.jpg&quot; class=&quot;fitHalf&quot;&gt;
@@ -2020,7 +2079,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="17" name="A2-S03" tags="Timeframe_Early" position="900,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 03]
+</tw-passagedata><tw-passagedata pid="16" name="A2-S03" tags="Timeframe_Early" position="900,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 03]
 MUFFIN RESISTANCE OUTPOST]
 
 You start off spawning on a few muffin soldiers listening to the radio. It’s a Muffin station that is describing the Muffinville massacre followed by a soundbite from Gorg and other Donut officials justifying it.
@@ -2044,7 +2103,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="18" name="A2-S04" tags="Timeframe_Early" position="900,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 04]
+</tw-passagedata><tw-passagedata pid="17" name="A2-S04" tags="Timeframe_Early" position="900,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 04]
 TRUCKS]
 
 You are on a resistance mission to capture trucks from Donuts.
@@ -2065,7 +2124,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="19" name="A2-S05" tags="Timeframe_Early" position="900,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 05]
+</tw-passagedata><tw-passagedata pid="18" name="A2-S05" tags="Timeframe_Early" position="900,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 05]
 COUNTERATTACK]
 
 NOTE: General Grimmer is mentioned here.
@@ -2119,7 +2178,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="20" name="A2-S06" tags="Timeframe_Early" position="900,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 06]
+</tw-passagedata><tw-passagedata pid="19" name="A2-S06" tags="Timeframe_Early" position="900,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 06]
 INDUSTRY]
 
 You are at a muffin factory waiting near a group of muffins who are executives of the factory. They are all excited about meeting a legendary leader of the resistance. They make it seem like they are talking about Hector. But then Cain rolls up. You tour the factory with Cain and his small entourage. You are shown a new type of gun. A machine gun that Cain tests.
@@ -2138,7 +2197,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="21" name="A2-S07" tags="Timeframe_Early" position="900,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 07]
+</tw-passagedata><tw-passagedata pid="20" name="A2-S07" tags="Timeframe_Early" position="900,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 07]
 DEVASTATED OUTPOST]
 
 You are in a truck convoy along with Hector. Hector is in a sort of meditation with his eyes closed. One hand palms his forehead while the other hand rests on boxes of supplies. Here&#39;s some of Hector’s dialogue after he opens his eyes and notices you:
@@ -2172,7 +2231,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="22" name="A2-S08" tags="Timeframe_Modern" position="900,1475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 08]
+</tw-passagedata><tw-passagedata pid="21" name="A2-S08" tags="Timeframe_Modern" position="900,1475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 08]
 FROST PEAK FRONT]
 &lt;img src=&quot;https://i.imgur.com/G08OoyH.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are in a frosty environment. A Donut compound is in the near distance. Cain and his men of the Sacred Knights are ready to attack, along with a force of native Frost Peak Muffin gorilla fighters. Cain hands out a new type of gun called a machine gun. Cain tells everyone to take no prisoners. A native commander replies to Cain that is not their way, and they will protect prisoners who surrender. Cain gets angry and goes off on the native commander. 
@@ -2196,7 +2255,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="23" name="A2-S09" tags="Timeframe_Modern" position="900,1600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 09]
+</tw-passagedata><tw-passagedata pid="22" name="A2-S09" tags="Timeframe_Modern" position="900,1600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 09]
 BLUEBERRY BULGE COUNCIL MEETING]
 
 NOTE: General Grimmer is mentioned here.
@@ -2251,7 +2310,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="24" name="A2-S10" tags="Timeframe_Modern" position="900,1725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 10]
+</tw-passagedata><tw-passagedata pid="23" name="A2-S10" tags="Timeframe_Modern" position="900,1725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 10]
 THE EXPERIMENT]
 
 
@@ -2431,7 +2490,7 @@ SCRIPT DRAFT:
 
 |action&gt;[You remove your simulator headset, finding yourself transitioning out of the test environment and into a new scene, signaling the end of this segment.]
 
-</tw-passagedata><tw-passagedata pid="25" name="A2-S11" tags="Timeframe_Modern" position="900,1850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 11]
+</tw-passagedata><tw-passagedata pid="24" name="A2-S11" tags="Timeframe_Modern" position="900,1850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 11]
 EXTRACTION]
 &lt;img src=&quot;https://i.imgur.com/Tu3UVsd.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You suddenly and unexpectedly find yourself at a secret Donut research lab. You are in a utility closet with holes to peak out. 2 Donut scientists look like they just tested something that fried their computer. Here’s dialogue between them:
@@ -2454,7 +2513,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="26" name="A2-S12" tags="Timeframe_Modern" position="900,1975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 12]
+</tw-passagedata><tw-passagedata pid="25" name="A2-S12" tags="Timeframe_Modern" position="900,1975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 12]
 THE PLAN]
 &lt;img src=&quot;https://i.imgur.com/fsaPbwN.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You spawn in the middle of an artillery barrage on the front lines. In a momentary lull in the barrage, there is a muffin who waves you over to his foxhole.
@@ -2475,7 +2534,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="27" name="A2-S13" tags="Timeframe_Modern" position="900,2100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 13]
+</tw-passagedata><tw-passagedata pid="26" name="A2-S13" tags="Timeframe_Modern" position="900,2100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 13]
 THE ATTACK]
 
 If you gave the right location, you will help the resistance ambush a fierce Donut attack.
@@ -2491,7 +2550,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="28" name="A2-S14" tags="Timeframe_Modern" position="900,2225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 14]
+</tw-passagedata><tw-passagedata pid="27" name="A2-S14" tags="Timeframe_Modern" position="900,2225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 14]
 SIM LABS DELIVERY]
 
 Ludwig is managing a Sim Labs delivery of training simulators for resistance soldiers. He wants to use you for more experiments, complaining that the first batch of Anderson model test subjects are not very good. Hector asks you if you are okay with doing more expirements with Ludwig. Professor Ludwig is baffled that Hector is ask a test subject for permission. Hector just wants to make sure in case you are somehow conciuos...
@@ -2541,7 +2600,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="29" name="A2-S15" tags="Timeframe_Advanced" position="900,2350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 15]
+</tw-passagedata><tw-passagedata pid="28" name="A2-S15" tags="Timeframe_Advanced" position="900,2350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 15]
 CONCENTRATION CAMP]
 
 You are in the midst of a short firefight to liberate a prison camp from Donuts. Some of the Donuts surrender and are captured.
@@ -2582,7 +2641,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="30" name="A2-S17" tags="Timeframe_Advanced" position="900,2600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 17]
+</tw-passagedata><tw-passagedata pid="29" name="A2-S17" tags="Timeframe_Advanced" position="900,2600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 17]
 SIM LABS EXPERIMENT #002]
 
 You are in your starting room at Sim Labs. It almost looks the same as the start of the game, but it’s not. Ludwig has extracted you and he only has a few Anderson test subjects. He extracted you because you have unique properties since you are already in a simulation. He and Hector want to ensure the resistance has all the intel they need to ensure the upcoming offensive against the Donuts in New Arc City will be successful. But current Sim Labs simulations aren&#39;t good enough to provide the level of accurate intel that they need. So Ludwig proposes a risky idea. He could send you in a deeper simulation layer that will effectively put you back in time “just a few days prior” to gather intel on the Donut defence strategy. Ludwig quickly configures a simulator and prepares it for you to wear. A scientist asks Ludwig, “Are you sure you have it configured correctly? Maybe you should double check.” Ludwig replies, “Of course I have it configured correctly. What do I look like to you? A bumbling idiot? ‘Double check.’ (Scoff.)”
@@ -2605,7 +2664,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="31" name="A2-S18" tags="Timeframe_Early" position="1050,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 18]
+</tw-passagedata><tw-passagedata pid="30" name="A2-S18" tags="Timeframe_Early" position="1050,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 18]
 AMBUSH
 EXT - DAY - DONUT SETTLEMENT]
 &lt;img src=&quot;https://i.imgur.com/AknKIVF.jpg&quot; class=&quot;fitHalf&quot;&gt;
@@ -2882,7 +2941,7 @@ Do it.
 	The Muffin prisoners are executed and the battle begins. After the fierce battle, GRIMMER is critically wounded by a shot from a Muffin fighter. An exit portal spawns on your position.
 
 
-</tw-passagedata><tw-passagedata pid="32" name="A2-S19.1" tags="Timeframe_Early" position="1050,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.1]
+</tw-passagedata><tw-passagedata pid="31" name="A2-S19.1" tags="Timeframe_Early" position="1050,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.1]
 STRATEGY]
 
 You are in a Donut base. Gorg and some generals are walking by. Gorg notices you and stops to tell the generals of your heroic efforts (if you killed a lot of Muffins in the last mission). You are then invited to the war room to discuss new plans. Kegan is there with a presentation. His plan is to fight fire with fire and do what the Muffins have done. They will focus attacks on Muffin outposts to provoke a reaction and destroy large numbers of enemy Muffins. Gorg and others comment how genius that is. “But wouldn’t this cause collateral damage on Muffin civilians?” One general says. “That’s the point,” Gorg responds.
@@ -2962,7 +3021,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="33" name="A2-S20" tags="Timeframe_Early" position="1050,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 20]
+</tw-passagedata><tw-passagedata pid="32" name="A2-S20" tags="Timeframe_Early" position="1050,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 20]
 DECEPTION]
 &lt;img src=&quot;https://i.imgur.com/57vEdTv.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You find yourself on a road full of Muffin refugees, all heading towards a camp. You follow them through the checkpoint. Hector is helping out at the checkpoint. You over hear one Muffin pleading with Hector about something, as another Muffin guard pulls you aside to interrogate you. Before the guard can discover the tracking device on you, Hector intercedes on your behalf. He explains to you about what&#39;s going on with the refugees and what not. Then Hector asks for a favor. He wants you to go get an item that was confiscated from a refugee by Cain’s men. You go and find Cain around his loyal soldiers. Cain has a chat with you. While standing near a large pile of valuables, he explains to you his reason for confiscating certain items. Cain claims allowing any items in is a security breach, and he jokingly says, “You never know what kind of espionage devices someone might bring in here.” He then half-jokingly asks, &quot;Did you bring any espionage devices?&quot; Since Cain remembers you helped him escape from prison, he does you a favor, and agrees to give you back whatever Hector needs. When Cain learns that you want a broken pocket watch back, he tells you that they tossed it in one of the trash cans along the way. After you find the pocket watch, you go back to the checkpoint and give it to the refugee looking for it. The refugee tells you Hector left the camp.
@@ -2976,7 +3035,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="34" name="A2-S21" tags="Timeframe_Early" position="1050,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 21]
+</tw-passagedata><tw-passagedata pid="33" name="A2-S21" tags="Timeframe_Early" position="1050,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 21]
 RESISTANCE MEETING]
 
 This is an alternate version of [[A2-S05]]. Most of the beginning half is the same as that scene, but the later half of this scene is different.
@@ -3006,7 +3065,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="35" name="A2-S22.1" tags="Timeframe_Early" position="1050,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 22.1]
+</tw-passagedata><tw-passagedata pid="34" name="A2-S22.1" tags="Timeframe_Early" position="1050,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 22.1]
 SIM LABS HIRES LUDWIG]
 
 You are at a temporary facility in the city of blueberry bulge. There is a board of scientific looking muffins interviewing individual muffins for some sort of job application. The next applicant to come in is Professor Ludwig. Ludwig goes on an eccentric rant about his achievements and explains why he wants to trademark everything he does after other scientists stole credit for his work. A member of the board explains the purpose of Sim labs is not just to create accurate simulations for the civilian sector. It is to create simulation so accurate they can be used for military espionage. for this they need to create an accurate simulation of the past. Ludwig says, “Yes I understand. Simulate the past. Predict the future. Simple enough.” One board member comments how nice that sounds, and proposes their slogan should be: “Simulate the past. Predict the future.” Ludwig insists that that is trademarked. Everyone is befuddled but they go along with it.
@@ -3026,7 +3085,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="36" name="A2-S23" tags="Timeframe_Modern" position="1050,1600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 23]
+</tw-passagedata><tw-passagedata pid="35" name="A2-S23" tags="Timeframe_Modern" position="1050,1600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 23]
 THE SECRET PLAN]
 
 You have been extracted by Kegan and his secret project. Kegan wants to show you something. He takes you outside and offers you welders goggles. Kegan says it&#39;s time for a new phase of the war.
@@ -3051,7 +3110,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="37" name="A2-S24" tags="Timeframe_Modern" position="1050,1725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 24]
+</tw-passagedata><tw-passagedata pid="36" name="A2-S24" tags="Timeframe_Modern" position="1050,1725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 24]
 DECISION]
 &lt;img src=&quot;https://i.imgur.com/1HEusAJ.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are driving the truck towards the Muffin outpost. You are cleared in by the outpost security. Hector and Kane are having an argument about something. Cain takes his men and they leave. you have a conversation with Hector where he airs out some of his grievances regarding Kane. He thanks you for bringing in a truck of medical supplies, and tells you they don&#39;t need any more at this outpost. He tells you, you can drive the truck to a remote supply site for excess surplus storage. Or you could just leave the truck there and they will take care of it tomorrow.
@@ -3071,7 +3130,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="38" name="A2-S25-G" tags="Timeframe_Modern" position="1175,1975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 25-G]
+</tw-passagedata><tw-passagedata pid="37" name="A2-S25-G" tags="Timeframe_Modern" position="1175,1975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 25-G]
 MYSTERIOUS EXPLOSION]
 
 There is commotion around the Donut base, almost a panic, as everyone prepares on high alert following news of a recent explosion.
@@ -3091,7 +3150,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="39" name="A2-S25-B" tags="Timeframe_Modern" position="1050,1975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 25-B]
+</tw-passagedata><tw-passagedata pid="38" name="A2-S25-B" tags="Timeframe_Modern" position="1050,1975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 25-B]
 CAIN TAKES POWER]
 
 You are in the Muffin chamber of assembly in Blueberry Bulge. There is outrage and commotion all over.
@@ -3122,7 +3181,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="40" name="A2-S26-G" tags="Timeframe_Modern" position="1175,2100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 26-G]
+</tw-passagedata><tw-passagedata pid="39" name="A2-S26-G" tags="Timeframe_Modern" position="1175,2100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 26-G]
 FROST PEAK ASSAULT]
 
 This is an alternate version of [[A2-S08]]. This whole scene is almost identical except for the ending.
@@ -3149,7 +3208,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="41" name="A2-S26-B" tags="Timeframe_Modern" position="1050,2100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 26-B]
+</tw-passagedata><tw-passagedata pid="40" name="A2-S26-B" tags="Timeframe_Modern" position="1050,2100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 26-B]
 WAR MACHINE / POWER OVERWHELMING]
 
 You return to the top secret Donut military base know as Facility X. After proving your loyalty to the Donuts through your actions destroying the Muffin camp, you are transformed into a powerful war machine in Kegan&#39;s latest top secret project. 
@@ -3173,7 +3232,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="42" name="The Bad Path" tags="" position="1050,1850" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Bad Path]
+</tw-passagedata><tw-passagedata pid="41" name="The Bad Path" tags="" position="1050,1850" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Bad Path]
 (text-size:5)[...still Act 2]]
 
 (align:&quot;==&gt;&quot;)[[[Continue...|A2-S25-B]]]
@@ -3202,7 +3261,7 @@ There are several more developments along this course of the &quot;bad&quot; pat
 
 
 
-</tw-passagedata><tw-passagedata pid="43" name="The Good Path" tags="" position="1175,1850" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Good Path]
+</tw-passagedata><tw-passagedata pid="42" name="The Good Path" tags="" position="1175,1850" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Good Path]
 (text-size:5)[...still Act 2]]
 
 (align:&quot;==&gt;&quot;)[[[Continue...|A2-S25-G]]]
@@ -3214,7 +3273,7 @@ Here&#39;s my thoughts on how the &quot;good&quot; path could go:
 As you know, there&#39;s a point in Act 2 where you are tasked to put a nuclear bomb device inside a muffin camp, where key figures of the resistance are headquartered, including Hector. When inside the camp, you are faced with the choice to leave the nuke in the camp, or send it far away to a remote location to explode.
 
 If you put the nuke device on a truck that&#39;s going to be driven far away to a remote storage location, you essentially chose the &quot;good&quot; path. No main characters are dead. Rumors of a massive explosion, the likes of which have never been seen, spread far and wide.
-</tw-passagedata><tw-passagedata pid="44" name="A2-S27-B" tags="Timeframe_Modern" position="1050,2225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 27-B]
+</tw-passagedata><tw-passagedata pid="43" name="A2-S27-B" tags="Timeframe_Modern" position="1050,2225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 27-B]
 LIQUIDATION]
 &lt;img src=&quot;https://i.imgur.com/dTIBW3d.jpg&quot; class=&quot;fitHalf&quot;&gt;
 As a test of your new powers, you are sent to an ahnialated Muffin camp to eliminate any survivers.
@@ -3228,7 +3287,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="45" name="A2-S28-B" tags="Timeframe_Modern" position="1050,2350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 28-B]
+</tw-passagedata><tw-passagedata pid="44" name="A2-S28-B" tags="Timeframe_Modern" position="1050,2350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 28-B]
 CALIBRATING]
 
 You return to Facility X. Sergant Kegan and some Donut scientists examine you after the mission, they make some improvements to you by giving you the new ability to _____. There&#39;s some comotion outside. A soilder interrupts Kegan and tells him Commander Gorg wants to see him. You and Kegan go to Gorg&#39;s office.
@@ -3260,7 +3319,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="46" name="A2-S29-B" tags="Timeframe_Modern" position="1050,2475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 29-B]
+</tw-passagedata><tw-passagedata pid="45" name="A2-S29-B" tags="Timeframe_Modern" position="1050,2475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 29-B]
 TREACHERY]
 
 You are back with the muffin resistance, but of course, it is controlled by Cain now. Cain notices your upgrades and compliments them.
@@ -3281,7 +3340,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="47" name="A2-S30-B" tags="Timeframe_Modern" position="1050,2600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 30-B]
+</tw-passagedata><tw-passagedata pid="46" name="A2-S30-B" tags="Timeframe_Modern" position="1050,2600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 30-B]
 OUTRAGE]
 &lt;img src=&quot;https://i.imgur.com/fAW26M8.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are back with Kegan and Gorg. There is outrage outside the congress directed against the assimilationist Donuts.
@@ -3298,7 +3357,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="48" name="A2-S31-B" tags="Timeframe_Advanced" position="1050,2725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 31-B]
+</tw-passagedata><tw-passagedata pid="47" name="A2-S31-B" tags="Timeframe_Advanced" position="1050,2725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 31-B]
 COUP D&#39;ÉTAT / NEW DONUT ORDER]
 
 Gorg gives a speech to his men about the &quot;weak and treacherous Donut politicians&quot; that need to be eliminated. It&#39;s time for a New Donut Order to take power. The old Donut flags are lowered. The new flags are raised; a red back drop with a black ring Donut super imposed onto a white circle in the center. 
@@ -3359,7 +3418,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="49" name="A2-S27-G" tags="Timeframe_Modern" position="1175,2225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 27-G]
+</tw-passagedata><tw-passagedata pid="48" name="A2-S27-G" tags="Timeframe_Modern" position="1175,2225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 27-G]
 HVT
 EXT - DAY - MUFFIN TOWN]
 
@@ -3483,7 +3542,7 @@ Everyone else, get ready to fire and move.
 
 
 
-</tw-passagedata><tw-passagedata pid="50" name="A2-S28-G" tags="Timeframe_Modern" position="1175,2350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 28-G]
+</tw-passagedata><tw-passagedata pid="49" name="A2-S28-G" tags="Timeframe_Modern" position="1175,2350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 28-G]
 ACCORD]
 &lt;img src=&quot;https://i.imgur.com/Nu1vS1q.jpg&quot; class=&quot;fitHalf&quot;&gt;
 |parenthetical&gt;[(ART NOTE: The doors are wrong here. These types of doors are only in Sim Labs facilities. Not sure what kind of door should be here. Probably just some standard rectangle sliding door with no distinct silhouette.)]
@@ -3611,7 +3670,7 @@ This simulation ends and you remove your simulator headset.
 
 
 
-</tw-passagedata><tw-passagedata pid="51" name="A2-S29-G" tags="Timeframe_Modern" position="1175,2475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 29-G]
+</tw-passagedata><tw-passagedata pid="50" name="A2-S29-G" tags="Timeframe_Modern" position="1175,2475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 29-G]
 CONFRONTATION]
 
 You are in a camp with Cain and the sacred knights. They are getting ready for a raid on a donut settlement. You are ordered by Cain to help his men load up equipment. After doing some labor, Hector shows up to confront Cain.
@@ -3793,7 +3852,7 @@ HECTOR: Each of you took an oath when you joined the Sacred Knights. You swore t
 If you believe I came here condemn anyone for harboring hatred against Donuts, you are mistaken. I understand hatred. Donuts took everything from me. They took everything from many of us. Scripture does not forbid hatred. It forbids injustice: “Do not let hatred prevent you from being just.“ And for those of you who believe it is justice to punish an innocent Donut for the crimes of another, please allow me to read verses from sacred scripture that you might ponder. &quot;Whoever commits evil only earns it against oneself.&quot; &quot;No bearer of burdens shall bear the burden of another.&quot; &quot;Every soul earns no blame except against itself.&quot; &quot;Whoever does a good deed, it is for oneself--&quot;
 CAIN: Alright. Enough with the sermon. This isn&#39;t a sanctuary. Your point has been made. I&#39;ll think about what you said. Just don&#39;t forget whose side you&#39;re on in this war, Hector.
 
-This simulation ends and you remove your simulator headset.</tw-passagedata><tw-passagedata pid="52" name="A2-S30-G" tags="Timeframe_Advanced" position="1175,2600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 30-G]
+This simulation ends and you remove your simulator headset.</tw-passagedata><tw-passagedata pid="51" name="A2-S30-G" tags="Timeframe_Advanced" position="1175,2600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 30-G]
 FACILITY X TOUR]
 &lt;img src=&quot;https://i.imgur.com/JgWSDvp.jpg&quot; class=&quot;fitHalf&quot;&gt;
 |parenthetical&gt;[(ART NOTE: Wrong hat on General Grimmer. (I&#39;ll stop mentioning this point from now on.))]
@@ -3812,7 +3871,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="53" name="A2-S31-G" tags="Timeframe_Advanced" position="1175,2725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 31-G]
+</tw-passagedata><tw-passagedata pid="52" name="A2-S31-G" tags="Timeframe_Advanced" position="1175,2725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 31-G]
 SIMULATION TECHNOLOGY]
 &lt;img src=&quot;https://i.imgur.com/zoUKc3c.jpg&quot; class=&quot;fitHalf&quot;&gt;
 |parenthetical&gt;[(ART NOTE: That door style in the background implies they are at Sim Labs HQ, but I&#39;m not sure this scene will take place there. Most likely it&#39;ll be in some muffin resistance outpost where Sim Labs is delivering these simulators for resistance fighters to train on.)]
@@ -3833,9 +3892,11 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="54" name="A2-S32-B" tags="Timeframe_Advanced" position="1050,2850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 32-B]
+</tw-passagedata><tw-passagedata pid="53" name="A2-S32-B" tags="Timeframe_Advanced" position="1050,2850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 32-B]
 CAIN PLANS - BLUEBERRY BULGE]
-
+&lt;img src=&quot;https://i.imgur.com/tKEhklC.jpg&quot; class=&quot;fitHalf&quot;&gt;
+|parenthetical&gt;[(ART NOTE: )]
+&lt;img src=&quot;https://i.imgur.com/mKGeTIk.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are back with Cain. He is hailed as a hero among the Muffin resistance. The attacks on donut cities sparked infighting amongst the donut military. Now was the time to consolidate muffin forces and launch attacks against the divided donuts.
 Cain explains that they should encourage the infighting by specifically targeting the stronger elements of the donut military. The stronger elements being the front line forces commanded by General Grimmer who is now fighting on 2 fronts: externally against the Muffins and internally against their own fellow donuts.
 But first, a large statue is unveiled of Hector who has become a martyr and a symbol of the fight against Donuts.
@@ -3857,9 +3918,12 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="55" name="A2-S33-B" tags="Timeframe_Advanced" position="1050,2975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 33-B]
-CONSOLIDATION]
 
+
+</tw-passagedata><tw-passagedata pid="54" name="A2-S33-B" tags="Timeframe_Advanced" position="1050,2975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 33-B]
+CONSOLIDATION]
+&lt;img src=&quot;https://i.imgur.com/qNHHSCU.jpg&quot; class=&quot;fitHalf&quot;&gt;
+&lt;img src=&quot;https://i.imgur.com/SjV7U5M.jpg&quot; class=&quot;fitHalf&quot;&gt;
 There is still significant in fighting between the old Donut government, lead by General Grimmer, against the NDO lead by King Gorg. King Gorg orders a full scale assault on Sprinkle City. 
 
 
@@ -3881,9 +3945,9 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="56" name="A2-S34-B" tags="Timeframe_Advanced" position="1050,3100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 34-B]
+</tw-passagedata><tw-passagedata pid="55" name="A2-S34-B" tags="Timeframe_Advanced" position="1050,3100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 34-B]
 TAKE BACK OUR LAND]
-
+&lt;img src=&quot;https://i.imgur.com/iqICEep.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You join Cain and his forces in a large scale assult on the Donut front. These Donuts are notabley still flying the old Donut Flag. During the assault, you encouter several Donut civilians, some Muffins gun down any they find while others will pretend they didn&#39;t see them and move on with the assault.
 Your assult penatrates so deep that you see bombings way in the distance beyond Muffin artilary. Everyone is confused, but Cain explains that this in part of the in fighting between Donuts and that they should not interrupt. A command is given to consolidate current positions and await further orders.
 
@@ -3896,9 +3960,9 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="57" name="A2-S35-B" tags="Timeframe_Advanced" position="1050,3225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 35-B]
+</tw-passagedata><tw-passagedata pid="56" name="A2-S35-B" tags="Timeframe_Advanced" position="1050,3225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 35-B]
 SITREP]
-
+&lt;img src=&quot;https://i.imgur.com/m1BEhnP.jpg&quot; class=&quot;fitHalf&quot;&gt;
 Back at the government building in Donut City, King Gorg, formerly Commander Gorg, and Sergeant Kegan are analyzing the situation.
 After much fighting with General Grimmer&#39;s forces, they have decided to hold off attacks against Grimmer because he is being attacked by the Muffins, which will allow them time to consolidate power in the regions they control.
 
@@ -3917,9 +3981,9 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="58" name="A2-S36-B" tags="Timeframe_Advanced" position="1050,3350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 36-B]
+</tw-passagedata><tw-passagedata pid="57" name="A2-S36-B" tags="Timeframe_Advanced" position="1050,3350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 36-B]
 AN EXAMPLE]
-
+&lt;img src=&quot;https://i.imgur.com/P5CbYQA.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You participate in the attacks on Dough Town. The Donut Holes put up a fierce resistance which the NDO was not prepared for, but eventually, you help to completely subdue the Donut Holes. King Gorg is so humiliated by his losses that he orders a nuke rolled into the city and detonated.
 
 (align:&quot;==&gt;&quot;)[[[Remove Simulator...|A2-S37-B]]]
@@ -3931,8 +3995,13 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="59" name="A2-S37-B" tags="Timeframe_Advanced" position="1050,3475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 37-B]
+</tw-passagedata><tw-passagedata pid="58" name="A2-S37-B" tags="Timeframe_Advanced" position="1050,3475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 37-B]
 SWITCHING SIDES]
+&lt;img src=&quot;https://i.imgur.com/QhfD3as.jpg&quot; class=&quot;fitHalf&quot;&gt;
+&lt;img src=&quot;https://i.imgur.com/BmWR2mp.jpg&quot; class=&quot;fitHalf&quot;&gt;
+&lt;img src=&quot;https://i.imgur.com/2v3RZ6S.jpg&quot; class=&quot;fitHalf&quot;&gt;
+|parenthetical&gt;[(ART NOTE: Only Ring and Filled Donuts are part of Gorg&#39;s royal guard. No Bar or Twist Donuts should be aiming guns at Kessler.)]
+
 
 Sergeant Kegan and other Bar / Twist Donut Generals are furious at Gorg for wasting a valueable nuke on such a low priority target.
 Shortly after, there is a surprise visitor that lands in the Facility X base. It&#39;s one of Grimmer&#39;s top generals fighting for the old government. There&#39;s a bit of a commotion when he first lands as they decide whether or not to destroy the plane, but Kegan explains that this visitor was invited by himself. Once landed, General Kessler steps out and admires the fabled Facility X which he is seeing for the first time. He is here to negotiate terms for ending the fighting and joining the NDO behind Grimmer&#39;s back. He even says he can lure Grimmer into a trap for the NDO to capture him.
@@ -3991,7 +4060,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="60" name="A2-S38-B" tags="Timeframe_Advanced" position="1050,3600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 38-B]
+</tw-passagedata><tw-passagedata pid="59" name="A2-S38-B" tags="Timeframe_Advanced" position="1050,3600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 38-B]
 GRIMMER&#39;S CAPTURE (change name later)]
 
 You are with Cain preparing for a Sacred Knights operation deep behind enemy lines. You don&#39;t know what the operation is exactly. You just know that it&#39;s top secret and that it&#39;s based on a mysterious intel source.
@@ -4025,7 +4094,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="61" name="A2-S39-B" tags="Timeframe_Advanced" position="1050,3725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 39-B]
+</tw-passagedata><tw-passagedata pid="60" name="A2-S39-B" tags="Timeframe_Advanced" position="1050,3725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 39-B]
 STATE FUNERAL]
 
 There is a massive funeral in honor of general Grimmer. Even though he was an enemy of the NDO, he is turned into a martyr of the war against Muffins. King Gorg gives a not very enthusiastic speech trying to praise General Grimmer. General Kessler you have so much more passionate speech with actual genuine praise for him. Then he highlights the importance to unite under the NDO against the real enemy. The savage Muffins. He hails King Gorg in public.
@@ -4054,7 +4123,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="62" name="A2-S40-B" tags="Timeframe_Advanced" position="1050,3850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 40-B]
+</tw-passagedata><tw-passagedata pid="61" name="A2-S40-B" tags="Timeframe_Advanced" position="1050,3850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 40-B]
 TOP SECRET]
 
 This scene takes place in facility X and the part of the facility that deals with simulation technology. During this scene, it&#39;s reveal that donut simulation technology is not very advanced but they do have some thing that is able to Intercept a signal of some sort. It&#39;s a very obscure signal but they are at least able to tell it&#39;s caused by an advanced simulation coming from the west deep within muffin territory. They are able to tell because a Similar but weaker signal is given off whenever they run their own Donut simulations.
@@ -4079,7 +4148,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="63" name="A2-S41-B" tags="Timeframe_Advanced" position="1050,3975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 41-B]
+</tw-passagedata><tw-passagedata pid="62" name="A2-S41-B" tags="Timeframe_Advanced" position="1050,3975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 41-B]
 RETURN TO SIM LABS]
 
 You&#39;re at Sim labs but in a different room 101. This room was for sir Camelot and the researcher Scientists noticed that you are not sir Camelot. If you attack with your weapons, a lockdown is issued on the whole facility which you can break out of and reek havoc on Sim labs. But you can also comply and just go through a bunch of research scientists asking you questions and trying to figure out what&#39;s going on. Either way there is a time limit until Kegan&#39;s task force arrives.
@@ -4094,7 +4163,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="64" name="A2-S42-B" tags="Timeframe_Advanced" position="1050,4100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 42-B]
+</tw-passagedata><tw-passagedata pid="63" name="A2-S42-B" tags="Timeframe_Advanced" position="1050,4100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 42-B]
 SORRY I&#39;M LATE]
 
 You are back with Cain. He is in a meeting with his men who are trying to strategize how best to attack the Donuts. They are waiting for Professor Ludwig to show up so that they could use his insights from his advanced simulations to find weak points in the Donuts.
@@ -4109,7 +4178,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="65" name="A2-S44-B" tags="Timeframe_Advanced" position="1050,4350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 44-B]
+</tw-passagedata><tw-passagedata pid="64" name="A2-S44-B" tags="Timeframe_Advanced" position="1050,4350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 44-B]
 LUDWIG]
 
 You are in the distant frost peaks, far away from civilization, in a small camp. You discover Professor Ludwig with a few of his gadgets from sim labs before its fall.
@@ -4143,7 +4212,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="66" name="A2-S45-B" tags="Timeframe_Advanced" position="1050,4475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 45-B]
+</tw-passagedata><tw-passagedata pid="65" name="A2-S45-B" tags="Timeframe_Advanced" position="1050,4475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 45-B]
 POW CAMP]
 &lt;img src=&quot;https://i.imgur.com/jncSnzh.png&quot; class=&quot;fit49&quot;&gt;
 |parenthetical&gt;[(very old art)]
@@ -4169,7 +4238,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="67" name="A2-S46-B" tags="Timeframe_Advanced" position="1050,4600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 46-B]
+</tw-passagedata><tw-passagedata pid="66" name="A2-S46-B" tags="Timeframe_Advanced" position="1050,4600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 46-B]
 A THOUSAND SUNS]
 
 You are with the Muffin resistance forces in the middle of a battle. They are defending a massive assault from Ring and Filled Donut forces.
@@ -4186,7 +4255,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="68" name="A2-S22.2" tags="Timeframe_Early" position="1050,1475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 22.2]
+</tw-passagedata><tw-passagedata pid="67" name="A2-S22.2" tags="Timeframe_Early" position="1050,1475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 22.2]
 KILL THEM ALL]
 
 This is an alternate version of [[A2-S07]], but instead Hector and his group discovering the camp, it is Cain and the Sacred Knights. Instead of protecting the Muffin survivors, they use them as bait to ambush the returning donuts. What they see the donuts do to the surviving muffins radicalizes them even more. The donuts have a commotion. There is disagreements on what to do with these muffins. They conclude that they can&#39;t leave these witnesses is alive, and proceeded to kill the muffin civilians. During the massacre, muffins can be heard over the radio asking Kane if they can fire yet. Cain Whispers back, &quot;Not yet, hold your fire.&quot; One donut particularly enjoys the killing. As a muffin boy is running away, he pulls out his pistol and gleefully shoots him in the back of the head.
@@ -4289,7 +4358,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="69" name="A2-S47-B" tags="Timeframe_Advanced" position="1050,4725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 47-B]
+</tw-passagedata><tw-passagedata pid="68" name="A2-S47-B" tags="Timeframe_Advanced" position="1050,4725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 47-B]
 THE END - FACILITY X]
 
 You are on an airstrip, waiting beside Kegan and Ludwig along with other dignitaries and Secret Service agents. King Gorg and his entourage finally show up.
@@ -4338,7 +4407,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="70" name="A3-S01-B" tags="Timeframe_Advanced" position="1350,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 01-B]
+</tw-passagedata><tw-passagedata pid="69" name="A3-S01-B" tags="Timeframe_Advanced" position="1350,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 01-B]
 WORLDS COLLIDE]
 
 You spawn between 2 black holes that are spinning around you and gaining in speed.
@@ -4354,7 +4423,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="71" name="A3-S02-B" tags="Timeframe_Advanced" position="1350,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 02-B]
+</tw-passagedata><tw-passagedata pid="70" name="A3-S02-B" tags="Timeframe_Advanced" position="1350,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 02-B]
 A BETTER WORLD]
 
 You find youself in a post apocaliptic wasteland of devestation. There is a small shack. You go in to investigate. Professor Ludwig is there with a handful of survivors from Sim Labs.
@@ -4390,7 +4459,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="72" name="Act 3 - Bad Path" tags="" position="1350,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
+</tw-passagedata><tw-passagedata pid="71" name="Act 3 - Bad Path" tags="" position="1350,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
 (text-size:5)[Act 3 - Bad Path]]
 
 (align:&quot;==&gt;&quot;)[[[Continue...|A3-S01-B]]]
@@ -4398,7 +4467,7 @@ SCRIPT DRAFT:
 
 
 MY NOTES:
-- somewhere in this act, it needs to be stressed that the good path self decided not to blow up the camp with that nuke. Perhaps it is just mentioned that the day the nuke blew up that aid supplies facility is the day Hector knew the war was going down a worse path.</tw-passagedata><tw-passagedata pid="73" name="A3-S03-B" tags="Timeframe_Advanced" position="1350,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 03-B]
+- somewhere in this act, it needs to be stressed that the good path self decided not to blow up the camp with that nuke. Perhaps it is just mentioned that the day the nuke blew up that aid supplies facility is the day Hector knew the war was going down a worse path.</tw-passagedata><tw-passagedata pid="72" name="A3-S03-B" tags="Timeframe_Advanced" position="1350,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 03-B]
 RESCUE YOU]
 
 You assault the compound at night and find Hector, along with the alternative path version of you (or alt you), being held in a small room surrounded by Cain and his guards. You defeat Cain&#39;s guards and rescue Hector and alt you, but Cain manages to escape. Using your super war machine, power frame, you fend off waves of muffin attacks as Hector and alt you escape. You keep fighting until you die.
@@ -4416,7 +4485,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="74" name="A3-S04-B" tags="Timeframe_Advanced" position="1350,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-B]
+</tw-passagedata><tw-passagedata pid="73" name="A3-S04-B" tags="Timeframe_Advanced" position="1350,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-B]
 VOICES]
 
 The screen is black, but no death quote shows. Instead, you hear dream like voices. And distortions and SFX that indicates the passage of time. The voices could be from the outside world, your memories, visions dialogue that provide exposition.
@@ -4430,7 +4499,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="75" name="A3-S05-B" tags="Timeframe_Advanced" position="1350,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 05-B]
+</tw-passagedata><tw-passagedata pid="74" name="A3-S05-B" tags="Timeframe_Advanced" position="1350,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 05-B]
 DEVILS DEAL]
 
 The screen is still black. You hear some scientists operating on you. You hear 2 familar voices talking about you. Suddenly, you are able to see, but with heavy glitching. Cain, Kegan, and Gorg are in front of you having a conversation while donut scientists operate on you.
@@ -4467,7 +4536,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="76" name="A3-S06-B" tags="Timeframe_Advanced" position="1350,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-B]
+</tw-passagedata><tw-passagedata pid="75" name="A3-S06-B" tags="Timeframe_Advanced" position="1350,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-B]
 PEACE!]
 
 In the final scene / chapter of the game, you are in a small room with Hector, alt you, and other dignitaries. On the news, it shows that three war criminals, Cain, Gorg, and Kegan, have been captured, and their plot to use nuclear weapons on Donut cities has been foiled. You all then walk out of the room to a large ceremony outside (similar to something at the end of Star Wars). Hector gives a speech and thinks all the brave muffins and donuts for striving towards peace. And before he forgets, Hector mentions one more individual who is neither muffin nor donut but still answered the calling to help others, even when those others were not like himself. You and alt you (the good version of you) are then honored with medals. Then a filled donut raises a ceremonial sphere into the sky and yells &quot;Peace&quot; as the crowds erupt in celebration (just like in Star Wars).
@@ -4489,7 +4558,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="77" name="A3-S07-B-END" tags="" position="1350,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 07-B]
+</tw-passagedata><tw-passagedata pid="76" name="A3-S07-B-END" tags="" position="1350,1350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 07-B]
 CREDITS!]
 &lt;img src=&quot;raw=1&quot; class=&quot;fit&quot;&gt;
 You find yourself in the actual real world (in VR passthrough mode). The game is over at this point. Perhaps there will be credits, or perhaps a sign saying to take off your actual VR headset because the game is now over. I don&#39;t know yet.
@@ -4499,7 +4568,7 @@ You find yourself in the actual real world (in VR passthrough mode). The game is
 MY NOTES:
 - There may not even be VR pass-through remote. And I&#39;m still deciding how to do the credits. I still want to have it incorporated into the story somehow so it doesn&#39;t take you out of the immersion.
 
-- Also, there needs to be a way to go back and select a mission to start from... Or, a way to restart the game if players want to play the alternative path.</tw-passagedata><tw-passagedata pid="78" name="A2-S32-G" tags="Timeframe_Advanced" position="1175,2850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 32-G]
+- Also, there needs to be a way to go back and select a mission to start from... Or, a way to restart the game if players want to play the alternative path.</tw-passagedata><tw-passagedata pid="77" name="A2-S32-G" tags="Timeframe_Advanced" position="1175,2850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 32-G]
 GORG&#39;S SURPRISE ATTACK]
 
 You are in a Muffin refugee camp. The mood is peaceful. Suddenly bombs drop from the sky. Muffin civilians scatter for cover. You follow one of them who is directing you. You hide in a house with a window where you can see outside. Donut soldiers march in, shooting any Muffin civilians on sight.
@@ -4520,7 +4589,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="79" name="A2-S33-G" tags="Timeframe_Advanced" position="1175,2975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 33-G]
+</tw-passagedata><tw-passagedata pid="78" name="A2-S33-G" tags="Timeframe_Advanced" position="1175,2975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 33-G]
 MUFFINS RECAPTURE THE CAMP]
 &lt;img src=&quot;https://i.imgur.com/Zma8R0l.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are with Muffin resistance fighters overlooking the Donuts attacking the camp you were just in. A large battle ensues. One of the largest in the entire war as both sides pour heavy resources into defeating the other side. This battle ends with the Donuts retreating and Muffins capturing some Donut soldiers while securing the area.
@@ -4534,7 +4603,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="80" name="A2-S34-G" tags="Timeframe_Advanced" position="1175,3100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 34-G]
+</tw-passagedata><tw-passagedata pid="79" name="A2-S34-G" tags="Timeframe_Advanced" position="1175,3100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 34-G]
 SPLIT]
 
 You are at a rear muffin base with Hector and Cain. Dead muffin bodies from the latest donut attack are piling into the base to be processed for burial. Cain, Hector, and other muffin resistance leaders discuss the state of the war and what should be done next. Hector proposes a diplomatic visit to the donuts to present their evidence of war crimes committed by donuts. Cain vehemently objects, demanding retaliatory attacks instead. There is a falling out between Hector and Cain. Cain declares anyone who works with donuts to be an enemy. Hector vows to hold all war criminals accountable, whether Donut or Muffin. Guns are pulled.
@@ -4552,7 +4621,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="81" name="A2-S35-G" tags="Timeframe_Advanced" position="1175,3225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 35-G]
+</tw-passagedata><tw-passagedata pid="80" name="A2-S35-G" tags="Timeframe_Advanced" position="1175,3225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 35-G]
 DELEGATION]
 
 You are at the Donut capital building with Grimmer, Johnson, and others. Hector&#39;s delegation arrives. There is a large Donut media presence as this is the first time since the start of the war that a muffin has been invited to speak in donut government. Hector didn&#39;t expect to be presenting evidence to the donut government. Grimmer guides Hector in the capital building. Gorg is already seated as a witness. He&#39;s having a friendly chat with many of the donut politicians. The inquiry commences.
@@ -4576,7 +4645,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="82" name="A2-S36-G" tags="Timeframe_Advanced" position="1175,3350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 36-G]
+</tw-passagedata><tw-passagedata pid="81" name="A2-S36-G" tags="Timeframe_Advanced" position="1175,3350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 36-G]
 SIMULATE THE PAST]
 
 You are now at Sim Labs HQ. It&#39;s not a fully complete facility. The Simulation Computation Chamber is still under construction, for instance. Ludwig and Hector are having a discussion about the progress of Sim Labs research and about you. You are then put through a series of tests.
@@ -4603,7 +4672,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="83" name="A2-S37-G" tags="Timeframe_Advanced" position="1175,3475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 37-G]
+</tw-passagedata><tw-passagedata pid="82" name="A2-S37-G" tags="Timeframe_Advanced" position="1175,3475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 37-G]
 PREDICT THE FUTURE]
 
 You join Johnson to go on a security post overlooking a bridge crossing. Sacred Knights attack and you must fight off waves of enemies. This simulation ends and you remove your simulator headset.
@@ -4617,7 +4686,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="84" name="A2-S38-G" tags="Timeframe_Advanced" position="1175,3600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 38-G]
+</tw-passagedata><tw-passagedata pid="83" name="A2-S38-G" tags="Timeframe_Advanced" position="1175,3600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 38-G]
 CODE RED]
 
 You&#39;re at a Donut base with Grimmer and Hector. They discuss the successful repulsion of many Sacred Knights attacks. Hector then reveals the new intel that Donuts are the only ones capable of building a nuke. 
@@ -4660,7 +4729,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="85" name="A2-S39-G" tags="Timeframe_Advanced" position="1175,3725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 39-G]
+</tw-passagedata><tw-passagedata pid="84" name="A2-S39-G" tags="Timeframe_Advanced" position="1175,3725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 39-G]
 DEFEND THE CAPITAL]
 &lt;img src=&quot;https://i.imgur.com/b5pBWIJ.png&quot; class=&quot;fit49&quot;&gt;
 |parenthetical&gt;[(very old art)]
@@ -4692,7 +4761,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="86" name="A2-S40-G" tags="Timeframe_Advanced" position="1175,3850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 40-G]
+</tw-passagedata><tw-passagedata pid="85" name="A2-S40-G" tags="Timeframe_Advanced" position="1175,3850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 40-G]
 PROPAGANDA]
 &lt;img src=&quot;https://i.imgur.com/GJs4I9o.jpg&quot; class=&quot;fitHalf&quot;&gt;
 There’s conflicting information about the attack. Gorg puts out propaganda saying they were the ones responding to a coup attempt by treacherous Donuts, highlighting the precipitation of the Muffin enemy in the attack.
@@ -4729,7 +4798,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="87" name="A2-S41-G" tags="Timeframe_Advanced" position="1175,3975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 41-G]
+</tw-passagedata><tw-passagedata pid="86" name="A2-S41-G" tags="Timeframe_Advanced" position="1175,3975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 41-G]
 SPRINKLE CITY]
 
 You and Hector along with a few muffins go to sprinkle city to meet with Mayor Sheila. She makes her case as to why she does not want security. Their city has never been attacked by muffins, and they don&#39;t want to become a target by instigating the muffins. She wants her city to be a beacon of hope for future peace with Muffins.
@@ -4759,7 +4828,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="88" name="A2-S42-G" tags="Timeframe_Advanced" position="1175,4100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 42-G]
+</tw-passagedata><tw-passagedata pid="87" name="A2-S42-G" tags="Timeframe_Advanced" position="1175,4100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 42-G]
 GRIMMER MEETS WITH DONUT LEADERS]
 
 WRITING NOTE: Grimmer is trying to convince Donut politicians of the need to formalize their current allience with Muffins, so they can more effectively combat the threats from Gorg and The Sacred Knights. He proposes a &quot;United Sweets Alliance&quot;.
@@ -4804,7 +4873,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="89" name="A2-S43-G" tags="Timeframe_Advanced" position="1175,4225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 43-G]
+</tw-passagedata><tw-passagedata pid="88" name="A2-S43-G" tags="Timeframe_Advanced" position="1175,4225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 43-G]
 LUDWIG CAPTURED]
 &lt;img src=&quot;https://i.imgur.com/SDCJ4Pq.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You appear with Cain who has extracted you using Sim Labs technology. It is revealed that they have captured Ludwig and his team. The SK now have the intel advantage.
@@ -4826,7 +4895,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="90" name="A2-S44-G" tags="Timeframe_Advanced" position="1175,4350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 44-G]
+</tw-passagedata><tw-passagedata pid="89" name="A2-S44-G" tags="Timeframe_Advanced" position="1175,4350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 44-G]
 SPRINKLE CITY THE 2ND WAVE]
 
 The Muffins can&#39;t hold the city against Cain. Grimmer is called in to offer more help. 
@@ -4845,7 +4914,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="91" name="A2-S45-G" tags="Timeframe_Advanced" position="1175,4475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 45-G]
+</tw-passagedata><tw-passagedata pid="90" name="A2-S45-G" tags="Timeframe_Advanced" position="1175,4475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 45-G]
 THE FINAL STAND]
 
 The USA (United Sweets Alliance) has been relentlessly persud by Gorg&#39;s forces, all while trying to protect the fleeing Muffin and Donut refugees. They are cutoff from allies in the east and west. They are setup on one of the last remianing Donut airstrips that the USA controls. Hector is helping refugees. Grimmer walks up to him to inform him their sitrep meeting is soon to start. As you all walk towards the meeting room, an old Donut lady and an old Muffin lady stop you all to thank the USA. The had been friends before the war until the segragationists instituted laws forcing Muffins to flee. They presented a new flag they crocheted together since the currently flying Donut flag had be so tattered in past battles.
@@ -4883,7 +4952,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="92" name="A2-S46-G" tags="Timeframe_Advanced" position="1175,4600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 46-G]
+</tw-passagedata><tw-passagedata pid="91" name="A2-S46-G" tags="Timeframe_Advanced" position="1175,4600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 46-G]
 POST APOCALYPTIC FUTURE]
 &lt;img src=&quot;https://i.imgur.com/ce1z92b.jpg&quot; class=&quot;fitHalf&quot;&gt;
 |parenthetical&gt;[(ART NOTE: I&#39;m imagining some destroyed skyscrapers in the background to really convey the idea that the world has been destroyed.)]
@@ -4905,7 +4974,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="93" name="A2-S47-G" tags="Timeframe_Advanced" position="1175,4725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 47-G]
+</tw-passagedata><tw-passagedata pid="92" name="A2-S47-G" tags="Timeframe_Advanced" position="1175,4725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 47-G]
 RESCUE HECTOR
 EXT - NIGHT - SACRED KNIGHTS CAMP]
 
@@ -4975,7 +5044,7 @@ No, not you, obviously. I’m him.
 
 
 
-</tw-passagedata><tw-passagedata pid="94" name="Names List" tags="" position="350,475" size="100,100">Names List
+</tw-passagedata><tw-passagedata pid="93" name="Names List" tags="" position="350,475" size="100,100">Names List
 
 This page is a list of all characters in this game with names.
 Donuts mainly have American accents, so Donut names should be more American sounding. With the exception of Twist Dounts who have either German or French accents.
@@ -5093,7 +5162,7 @@ Hilda (Frost Peak)
 
 
 
-</tw-passagedata><tw-passagedata pid="95" name="Expletive Replacements" tags="" position="350,625" size="100,100">THE SIMULATION™ Expletive Replacements
+</tw-passagedata><tw-passagedata pid="94" name="Expletive Replacements" tags="" position="350,625" size="100,100">THE SIMULATION™ Expletive Replacements
 
 Characters in this game world do not use real curse words. They have their own curse words. Muffins and Donuts have curse words that are more native to their speech, but they can all be used by any characters. Here&#39;s a list of some of the curse words: 
 
@@ -5122,7 +5191,7 @@ Biscuits
 Nutcase / Nuts
 
 
-</tw-passagedata><tw-passagedata pid="96" name="A2-S19.2" tags="Timeframe_Early" position="1050,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.2]
+</tw-passagedata><tw-passagedata pid="95" name="A2-S19.2" tags="Timeframe_Early" position="1050,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.2]
 HOSTAGE RESCUE]
 
 Johnson leads a task force to resuce Donut hostages held by Muffins. After a few Muffin gaurds are sniped, you all move into the outpost. There is only a Muffins civilian pressence when entering the Muffin outpost. 
@@ -5142,7 +5211,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="97" name="A2-S19.3" tags="Timeframe_Early" position="1050,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.3]
+</tw-passagedata><tw-passagedata pid="96" name="A2-S19.3" tags="Timeframe_Early" position="1050,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.3]
 DEBRIEF
 INT - DAY - GENERAL GRIMMER’S OFFICE]
 
@@ -5218,7 +5287,7 @@ Let’s begin.
 
 
 
-</tw-passagedata><tw-passagedata pid="98" name="Linguistic Terms" tags="" position="350,775" size="100,100">Notes about linguistic terms:
+</tw-passagedata><tw-passagedata pid="97" name="Linguistic Terms" tags="" position="350,775" size="100,100">Notes about linguistic terms:
 
 There are certain words or phrases that are not used in this game as to maintain immersion within this world of the game and not draw too much attention to outside real life entities or ideas. Some of these rules might seem ridiculous but I believe it is important and easy enough to avoid certain words and maintain the believability of this story taking place within its own world and not simply in analogy of a real world conflict.
 
@@ -5283,7 +5352,7 @@ Simulation / Simulator Headset
 
 
 
-</tw-passagedata><tw-passagedata pid="99" name="A2-S48-G" tags="Timeframe_Advanced" position="1175,4850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 48-G]
+</tw-passagedata><tw-passagedata pid="98" name="A2-S48-G" tags="Timeframe_Advanced" position="1175,4850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 48-G]
 REMNANTS]
 
 You and Hector are walking through a blizzard in the snow. Eventually you come across the last remenents of the Donut and Muffin Alliance. It&#39;s a ragtag group of Muffin and Donut soldiers that are protecting a large group of Muffin refugees. Everyone is happy to see Hector. Hector gives an impromtue speech to this one group that is recorded live on video. The map shows they are cut off in the north and they are surrounded by enemies on all sides. Gorg&#39;s army is strong, so some suggest trying to cut through the relavily weak defences of the Sacred Knights to breakout, although even that would be suicide. With no good options, Johnson suggests marching north. Maybe they can sneak past the frost peak Muffins (allied with Cain), and then decide what to do. Everyone agrees that&#39;s a dumb plan, but that&#39;s the only plan they got.
@@ -5331,7 +5400,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="100" name="A2-S49-G" tags="Timeframe_Advanced" position="1175,4975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 49-G]
+</tw-passagedata><tw-passagedata pid="99" name="A2-S49-G" tags="Timeframe_Advanced" position="1175,4975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 49-G]
 BAD OPTICS]
 
 You are in Facility X. You got extracted.
@@ -5355,7 +5424,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="101" name="A2-S50-G" tags="Timeframe_Advanced" position="1175,5100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 50-G]
+</tw-passagedata><tw-passagedata pid="100" name="A2-S50-G" tags="Timeframe_Advanced" position="1175,5100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 50-G]
 UNITED SWEETS ALLIANCE]
 
 You are extracted but this time back with the good guys and Luwig is there too.
@@ -5390,7 +5459,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="102" name="A2-S51-G" tags="Timeframe_Advanced" position="1175,5225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 51-G]
+</tw-passagedata><tw-passagedata pid="101" name="A2-S51-G" tags="Timeframe_Advanced" position="1175,5225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 51-G]
 PRISON BREAK]
 
 You join Johnson on the task force to rescue the prisoners from Gorg. Johnson thanks you for always being there. And without you, there may have never been a chance for this partnership between Muffins and Donuts.
@@ -5408,7 +5477,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="103" name="A2-S52-G" tags="Timeframe_Advanced" position="1175,5350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 52-G]
+</tw-passagedata><tw-passagedata pid="102" name="A2-S52-G" tags="Timeframe_Advanced" position="1175,5350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 52-G]
 FROSTY AMBUSH]
 
 You are in the middle of a snowy environment, perhaps near the Frost Peak region. A patrol of Sacred Knights fighters come across you. They talk about how you look like that other thing they captured. They think Cain will like that they captured you too.
@@ -5426,7 +5495,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="104" name="A2-S53-G" tags="Timeframe_Advanced" position="1175,5475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 53-G]
+</tw-passagedata><tw-passagedata pid="103" name="A2-S53-G" tags="Timeframe_Advanced" position="1175,5475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 53-G]
 USA CONFERENCE]
 
 A delegation of Muffins arrive to the Donut capital. There is a fancy USA conference of everyone to discuss the state of the allience. Hector has talks with some Donut leaders about some aid that is needed to Muffin villages recently liberated from SK Muffins. Donuts agree they can provide aid. Hector then leaves outside even though he is much sought out for.
@@ -5483,7 +5552,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="105" name="A2-S54-G" tags="Timeframe_Advanced" position="1175,5600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 54-G]
+</tw-passagedata><tw-passagedata pid="104" name="A2-S54-G" tags="Timeframe_Advanced" position="1175,5600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 54-G]
 A NEW THEORY]
 
 You are at Sim Labs. Some researchers are concerned about Ludwig who has been locked inside his lab sector for weeks. They finally decide to break in to find a frantically working Ludwig who tells everyone to wait in the demonstration room because he wants to show them all something. He ends up explaining his new spacetime theory and immediately gets speculation and Ludwig responds harshly with adhomenoms.
@@ -5509,7 +5578,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="106" name="Act 3 - Good Path" tags="" position="1475,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
+</tw-passagedata><tw-passagedata pid="105" name="Act 3 - Good Path" tags="" position="1475,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
 (text-size:5)[Act 3 - Good Path]]
 
 (align:&quot;==&gt;&quot;)[[[Continue...|A3-S01-G]]]
@@ -5518,7 +5587,7 @@ SCRIPT DRAFT:
 
 MY NOTES:
 - 
-</tw-passagedata><tw-passagedata pid="107" name="A3-S01-G" tags="Timeframe_Advanced" position="1475,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 01-G]
+</tw-passagedata><tw-passagedata pid="106" name="A3-S01-G" tags="Timeframe_Advanced" position="1475,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 01-G]
 THE QUERY]
 
 The war is almost won.
@@ -5547,7 +5616,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="108" name="A3-S02-G" tags="Timeframe_Advanced" position="1475,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 02-G]
+</tw-passagedata><tw-passagedata pid="107" name="A3-S02-G" tags="Timeframe_Advanced" position="1475,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 02-G]
 FINAL ASSAULT]
 &lt;img src=&quot;https://i.imgur.com/I0qbGWf.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are in a helicopter in route to assault Facility X. This time, all the forces of the USA are combined, Donuts and Muffins. Everyone is there including Hector.
@@ -5613,7 +5682,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="109" name="A3-S03-G" tags="Timeframe_Advanced" position="1475,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 03-G]
+</tw-passagedata><tw-passagedata pid="108" name="A3-S03-G" tags="Timeframe_Advanced" position="1475,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 03-G]
 REMEMBERANCE]
 
 You are in a Donut cemetary. Ludwig finds you and tells you to follow him.
@@ -5638,7 +5707,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="110" name="A3-S04-G" tags="Timeframe_Advanced" position="1475,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-G]
+</tw-passagedata><tw-passagedata pid="109" name="A3-S04-G" tags="Timeframe_Advanced" position="1475,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-G]
 VICTORY DAY]
 &lt;img src=&quot;https://i.imgur.com/YG2z1mi.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are in a victory day parade. Muffins and Donuts line the streets together. There is a celebration of peace between Muffins and Donuts. You are lead to the capital steps where you see all the main and secondary &quot;good&quot; characters that are still alive, including alt you. As you make your way up the steps, Ludwig steps out and stops you. He congradulates you on having the honor of lifting the orb of peace. He also tells you he managed configure the simulation you are in so that your next extraction event will send you completely outside all simulation levels and back to your original reality from whence you came. He does warn you that you will be expierencing increasingly intense hallucinations prior to extraction. He informs you that your body might feel more tactile and higher resolution outside the simulation so you might need to remove your headset in a more physical mannor.
@@ -5661,7 +5730,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="111" name="A3-S05-G-END" tags="" position="1475,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 05-G]
+</tw-passagedata><tw-passagedata pid="110" name="A3-S05-G-END" tags="" position="1475,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 05-G]
 CREDITS!]
 &lt;img src=&quot;raw=1&quot; class=&quot;fit&quot;&gt;
 
@@ -5669,13 +5738,13 @@ CREDITS!]
 
 
 MY NOTES:
-- </tw-passagedata><tw-passagedata pid="112" name="Key Details about this game" tags="" position="350,325" size="100,100">Key Details about this game:
+- </tw-passagedata><tw-passagedata pid="111" name="Key Details about this game" tags="" position="350,325" size="100,100">Key Details about this game:
 
 1. Entering and exiting simulation levels by wearing or removing &quot;simulator headsets&quot; serves as the main plot device driving the story forward. This is how most scene transitions happen.
 
 2. More on plot devices: It is explained early in the story that The Simulation™ is a little unstable and will have minor glitches occassionaly. Minor glitches will be used to shorten long walks or waiting times within a scene. Major gltiches happen when the RAM is overloaded which triggers a simulation extraction event that prompts you to remove the simulator, which will advance the story to the next scene in most cases.
 
-</tw-passagedata><tw-passagedata pid="113" name="A2-S19.4" tags="Timeframe_Early" position="1175,1025" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.4]
+</tw-passagedata><tw-passagedata pid="112" name="A2-S19.4" tags="Timeframe_Early" position="1175,1025" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.4]
 MALL MASACRE]
 
 You are in a Donut shopping center. Suddenly, Muffins start shooting around indiscriminately.
@@ -5735,13 +5804,13 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="114" name="Haku Talkabouts" tags="" position="300,175" size="100,100">1. Talk about doors. Might want to switch Sim Labs and Facility X style doors.
+</tw-passagedata><tw-passagedata pid="113" name="Haku Talkabouts" tags="" position="300,175" size="100,100">1. Talk about doors. Might want to switch Sim Labs and Facility X style doors.
 
 2. Talk about &quot;almost chairs&quot;.
 
 3. Secondary characters.
 
-4. Flag designs.</tw-passagedata><tw-passagedata pid="115" name="TOC" tags="" position="700,175" size="100,100">Links for conveniently jumping to different points in the story:
+4. Flag designs.</tw-passagedata><tw-passagedata pid="114" name="TOC" tags="" position="700,175" size="100,100">Links for conveniently jumping to different points in the story:
 
 
 
@@ -5794,7 +5863,220 @@ Links to micellaneous notes that are about the game in general, not scene specif
 [[Names List]] 
 [[Expletive Replacements]] 
 [[Linguistic Terms]] 
-[[Haku Talkabouts]] </tw-passagedata></tw-storydata>
+[[Haku Talkabouts]] </tw-passagedata><tw-passagedata pid="115" name="A1-S03" tags="Timeframe_Primitive Timeframe_Modern" position="725,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1  SCENE 03]
+BACK TO THE FUTURE
+EXT - NIGHT - TRAINING SIMULATION]
+&lt;img src=&quot;https://i.imgur.com/0wCCxrU.jpg&quot; class=&quot;fitHalf&quot;&gt;
+PART A: PREHISTORIC ERA
+You find yourself in a prehistoric landscape, realizing Ludwig&#39;s simulator has sent you too far into the past, long before the construction of Super Awesome Adventure Candy Land™ or the tunnel entrance. Ludwig explains that to return you to the future, he needs to overload the simulation by increasing simulated entropy, triggering an extraction event.
+As Ludwig works on his computer, you hear rapid typing and muttering. Suddenly, a distant screeching sound echoes through the primitive forest.
+
+
+&lt;img src=&quot;https://i.imgur.com/kcAeXSD.jpg&quot; class=&quot;fitHalf&quot;&gt;
+|parenthetical&gt;[(ART NOTE:  By &quot;prehistoric pastries&quot;, I initially imagined a bunch of pop tarts chasing you. But perhaps &quot;caveman muffins&quot; chasing you works too. Keep it this way for now.)]
+A horde of prehistoric pastries emerges, quickly advancing towards you. Ludwig yells for you to run or hide, warning of the danger these creatures pose. You must survive this chase sequence, either by running or finding a hiding spot, until the simulation becomes unstable enough for an extraction event to occur.
+You will die at least once here. The first time you die, Ludwig discovers that his Ultra Realism Haptic Engine™ was disabled, so instead of dying in real life too, you will just restart at a checkpoint from now on.
+
+
+&lt;img src=&quot;https://i.imgur.com/eNA1ctL.jpg&quot; class=&quot;fitHalf&quot;&gt;
+|parenthetical&gt;[(ART NOTE: There are no &quot;simulation exit portals&quot; that you walk into anymore. The simulation will just glitch at some point. So pretend there is no portal in this art.)]
+PART B: TUNNEL CONSTRUCTION ERA
+After removing the simulator, you&#39;re in a partially constructed tunnel. Ludwig explains you aren&#39;t fully back to the future yet. You still need to exit one more simulation layer before you return to the top most simulation layer.
+In order to help trigger a simulation extraction event faster, Ludwig tells you to go outside the tunnel and trigger the TNT switch. The first time you try to trigger it, it doesn&#39;t work because the cables are not connected in the tunnel. Your objective is to connect three separated sections of a cable to activate the TNT detonator. The challenges are:
+- Climbing scaffolding to reach a high cable connection.
+- Operating a robotic excavator to clear debris and uncover a buried cable section.
+- Finding a flashlight to navigate a darkened area of the tunnel and locate the final cable connection.
+Once complete, you return to the TNT plunger switch. Upon detonation, a massive explosion triggers another simulation overload and extraction event.
+
+
+&lt;img src=&quot;https://i.imgur.com/RAJ3fex.jpg&quot; class=&quot;fitHalf&quot;&gt;
+PART C: ALTERED FUTURE AND SUDDEN ATTACK
+Removing the simulator again, you emerge in a drastically altered future. A massive crater from a nuclear explosion has replaced Super Awesome Adventure Candy Land™. As Ludwig begins explaining the consequences of your actions in past simulations, the scene suddenly destabilizes.
+Ludwig&#39;s voice cuts through, yelling, &quot;We&#39;re under attack!&quot; Without warning, the simulated world violently falls apart. Pieces of sky crash down, rocks explode from the ground, and the environment becomes chaotic and dangerous.
+You must navigate through this rapidly disintegrating landscape, dodging falling debris and exploding terrain. Your goal is to survive long enough for another extraction event to occur.
+As you run and dodge the hazards, the simulation becomes increasingly unstable. Just as the world seems on the brink of total collapse, an extraction event triggers, allowing you to remove the simulator.
+
+(align:&quot;==&gt;&quot;)[[[Remove Simulator...|A1-S04]]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCRIPT DRAFT:
+
+Part A:
+
+|action&gt;[You spawn in a prehistoric time before the construction of Super Awesome Adventure Candy Land™. Dense jungle surrounds you.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Hmm, this is not what I intended. It seems you went a bit too far in the past. There&#39;s not even a tunnel here yet.]
+
+|action&gt;[You hear rapid typing and muttering from Ludwig.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[I&#39;m going to see what I can do about overloading this simulation to trigger an extraction event so we can return you back to the future from whence you came.]
+
+|action&gt;[A distant screeching sound echoes through the forest.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Oh. That doesn&#39;t sound reassuring.]
+
+|action&gt;[A horde of prehistoric pastries will emerge from the dense foliage. They begin to chase you, throwing primitive spears.]
+
+|action&gt;[There is a different sequence depending on if you died or not in the previous scene. If you haven&#39;t died yet, a spear hits you accurately, causing death and respawn.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[- IF PLAYER DIED IN PREVIOUS SCENE: Timothy, give me radar scans of the area. Yep, just as I suspected, there&#39;s a horde of prehistoric pastries descending upon your position, Mr. Anderson. They&#39;re not friendly. In fact, they&#39;re most certainly going to try to kill you. It&#39;s best you run or find a hiding spot. Of course it&#39;s not a big deal if they do kill you, since you&#39;ll just restart at a checkpoint. But still, try not to die. It&#39;s kind of annoying.]
+|dialogue&gt;[- IF PLAYER DIDN&#39;T DIE IN PREVIOUS SCENE: Timothy, give me radar scans. Oh my. Mr. Anderson, it appears there is a horde of prehistoric pastries descending upon your location. Your current chances of survival are less than five percent, which is not good. And as I&#39;m sure you know, if you die in a simulation, you die in reality. So RUN! RUN FOR YOUR LIFE MR. ANDERSON! RUUUUUUUN! AHHHHHHHH! THE PREHISTORIC PASTRIES ARE GOING TO EAT YOU! OH NO! THEY GOT YOU! YOU&#39;RE DEAD NOW ANDERSON! I&#39;M SO SORRY! I&#39;M SORRY I COULDN&#39;T SAVE YOU! I... wait a moment... what’s going on here? Why is there a thought provoking quote? Oh, don’t tell me…]
+
+|action&gt;[LUDWIG dials a number and has a conversation with Karen.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Karen, did you disable my Ultra Realism Haptic Engine™?
+Yes, the one that kills you if you die.
+“Unethical”? Come on Karen, don’t be such a Jennifer.
+What do you mean “I’m the only one who disagrees with this decision”?
+Well then, everyone else is stupid.]
+
+|action&gt;[LUDWIG hangs up.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[(Sigh.) I’m sorry Mr. Anderson. For some reason, management decided to disable my Ultra Realism Haptic Engine™ that’s supposed to actually kill you when you die in a simulation. So instead of being killed and getting the full immersive experience, you’ll just see some random inspirational quotes before you restart at a checkpoint. I apologize for this inconvenience.]
+
+|action&gt;[The thought provoking quote slowly fades away. Then a prompt appears instructing you to &quot;remove simulator headset from face&quot;. You remove the simulator. You have now restarted at a checkpoint before the horde chases you.]
+
+|action&gt;[The chase/hide sequence continues. There&#39;s different dialogue after each time you die.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[(1st death and respawn) Oh no. Run Mr. Anderson. Run or else you are going to, not die. Ha ha. Ugh, this is so boring without any consequences.]
+|dialogue&gt;[(2nd death and respawn) Please Mr. Anderson. You must survive long enough to trigger an extraction event. Try to find a hiding spot and wait until the simulation gets overloaded.]
+|dialogue&gt;[(3rd death and respawn) You know what, I&#39;m gonna make this really simple for you. (A big boulder crashes with a hollow entrance that you can hide inside.) There I just sent you a rock to hide underneath. Just run in there and wait out the horde.]
+|dialogue&gt;[(4th death and respawn) You really aren&#39;t good at surviving, are you? Alright, I&#39;m just gonna delete all the pastries. (A bunch of meteors fall from the sky, impacting the forest where the pastries are.) Now you&#39;re just gonna have to wait for a minute for an extraction event to trigger.]
+
+|action&gt;[After surviving for a set period, the simulation begins to glitch and an extration event is triggered.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[The simulation has overloaded and an extraction event has triggered. You&#39;re safe now. You cannot be harmed in this simulation layer anymore. Please remove your simulator now!]
+
+
+
+
+
+
+
+
+
+
+
+Part B:
+
+|action&gt;[You remove the simulator and find yourself in a partially constructed tunnel.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Okay, It seems you are in the tunnel but it&#39;s not fully constructed yet. So obviously, you are not quite back to the future. I&#39;m running some calculations to see how many layers deep you are exactly. In the meantime, you still need to extract yourself from this current simulation layer. If only there was some way to increase entrapy. Hmm. Well, that is a lot of explosives that the excavation team has rigged up. I mean, technically, we should avoid altering the past as much as possible, but they are gonna blow it up anyway. So perhaps it won&#39;t hurt to help them speed up the process. Go ahead and exit the tunnel. There should be a TNT switch outside the entrance.]
+
+|action&gt;[You walk towards the outside of the tunnel.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[I suppose all the workers are out to lunch. We should be done with this before they return. I&#39;m sure they&#39;ll be happy for the help.]
+
+|action&gt;[You see a TNT plunger switch outside the tunnel entrance.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[There&#39;s the TNT switch. That&#39;s our ticket out of this simulation layer. Go on and activate it, Mr. Anderson.]
+
+|action&gt;[You try to trigger the TNT switch, but it doesn&#39;t work.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[It&#39;s not working. The cables must be disconnected. According to the diagrams, there are three connections you need to fix inside the tunnel.]
+
+|action&gt;[You enter the tunnel and see scaffolding leading to a high cable connection.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[The first cable is up there. You&#39;ll need to climb the scaffolding.]
+
+|action&gt;[You climb the scaffolding and connect the first cable.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Good. One down, two to go.]
+
+|action&gt;[You encounter a pile of debris blocking the second cable.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[There&#39;s an excavator nearby. Use it to clear the debris.]
+
+|action&gt;[You operate the excavator to clear the debris and connect the second cable.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Second cable connected. One more left.]
+
+|action&gt;[You reach a dark section of the tunnel where the third cable is located.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[It&#39;s too dark to see. Look for a flashlight.]
+
+|action&gt;[You find a flashlight and use it to locate and connect the third cable.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[All cables are now connected. Return to the TNT switch. By the way, you are only one layer deep. So extracting from this simulation should get you back to the future.]
+
+|action&gt;[You return to the TNT plunger switch outside the tunnel.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Detonate the TNT. It should overload the simulation.]
+
+|action&gt;[You detonate the TNT, causing a massive explosion. The simulation begins to overload and glitch.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[The extraction event is triggering. Remove your simulator now.]
+
+
+
+
+
+Part C:
+
+|action&gt;[You remove the simulator and find yourself in a drastically altered future. A massive crater replaces where Super Awesome Adventure Candy Land™ should be.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[Finally, we made it back to the future.
+Welcome to Super Awesome… Wait, where is it? Oh come on, not again…
+Yep, just as I feared. It seems when you were in that simulated simulation, you stepped on some atomic nuclei which set in motion a chain of events that led to the thermonuclear annihilation of civilization.
+Mr. Anderson, you have to be careful with simulated simulations. Remember, they are the past. You can&#39;t just touch sub atomic particles all willy-nilly and expect things to stay the same in the future. One false move and &quot;Skadoosh!&quot;…
+That was a nuke. That was the sound of a nuclear bomb going off. Anyhow, let&#39;s continue with your training.]
+
+|action&gt;[Bombing begins. You can hear the sound of bombs muffling Ludwig&#39;s voice, with the bombing sounds through the intercom getting more intense.]
+
+|name&gt;[LUDWIG]
+|dialogue&gt;[What&#39;s going on?!—
+We&#39;re under attack!—
+Hold on Mr. Anderson. I&#39;m getting you out.—]
+
+|action&gt;[Ludwig&#39;s voice cuts out. The simulated world begins to violently fall apart. Pieces of sky crash down, rocks explode from the ground, and the environment becomes chaotic and dangerous.]
+
+|action&gt;[You navigate through the rapidly disintegrating landscape, dodging falling debris and exploding terrain.]
+
+|action&gt;[As you run and dodge the hazards, the simulation becomes increasingly unstable.]
+
+|action&gt;[After surviving for a set period, an extraction event is triggered.]
+
+|action&gt;[A prompt appears instructing you to &quot;remove simulator headset from face&quot;.]
+
+
+
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
