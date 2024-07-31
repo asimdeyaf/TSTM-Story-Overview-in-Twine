@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play The Simulation™ - Story Overview.</tw-noscript></noscript></tw-story>
-<tw-storydata name="The Simulation™ - Story Overview" startnode="114" creator="Twine" creator-version="2.7.1" format="Harlowe" format-version="3.3.7" ifid="547CABDE-0004-4A71-A30D-B2E4A401E118" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.imageContainer {
+<tw-storydata name="The Simulation™ - Story Overview" startnode="1" creator="Twine" creator-version="2.7.1" format="Harlowe" format-version="3.3.7" ifid="547CABDE-0004-4A71-A30D-B2E4A401E118" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.imageContainer {
   display: flex;
   justify-content: space-around; /* This will space out the images evenly */
   flex-wrap: wrap; /* Allows wrapping to next line */
@@ -158,7 +158,83 @@ Before the massive wave smothers you, your vision glitches. A holographic messag
 
 
 
-</tw-passagedata><tw-passagedata pid="2" name="A1-S01" tags="Timeframe_Advanced" position="725,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 01]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here are some links for conveniently jumping to different points in the story...
+NOTE: Scene names are intended as devlopment labels, and they may not appear in game.
+
+[[Act 2 - Scene 01: DREJNON|A2-S01]]
+
+[[Act 2 - Scene 18: AMBUSH|A2-S18]]
+
+[[Act 2 - Scene 24: DECISION|A2-S24]]
+The storyline diverges into the &quot;good&quot; path or the &quot;bad&quot; path, depending on your actions in this scene.
+NOTE: Paths are not labeled in game as &quot;good&quot; or &quot;bad&quot;. These are just a development labels.
+
+[[Act 3 - Scene 01 - Good Path: THE QUERY|A3-S01-G]]
+
+[[Act 3 - Scene 01 - Bad Path: WORLDS COLLIDE|A3-S01-B]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here are links to micellaneous notes that are about the game in general, not scene specific...
+WARNING: These notes are mostly for myself so they are probably messy and confusing.
+
+[[Key Details about this game]] 
+[[Names List]] 
+[[Expletive Replacements]] 
+[[Linguistic Terms]] 
+[[Haku Talkabouts]] </tw-passagedata><tw-passagedata pid="2" name="A1-S01" tags="Timeframe_Advanced" position="725,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 01]
 ROOM 101
 INT - DAY - SIM LABS HQ]
 
@@ -714,7 +790,7 @@ There&#39;s a sense of urgency. Kegan briefs you on your next task: to find and 
 (align:&quot;==&gt;&quot;)[[[Wear Simulator...|A1-S06]]]
 
 
-NOTE: The first time a faction flag appears, it will be here at the end of the scene description...
+NOTE: The first time a faction flag appears, it will be shown here at the end of the scene description...
 &lt;img src=&quot;https://i.imgur.com/gGTKqzY.png&quot; class=&quot;fitHalf&quot;&gt;
 |parenthetical&gt;[(Donut Defence Legion Flag)]
 
@@ -781,8 +857,8 @@ Do you understand what happened to you just now?]
 
 |name&gt;[KEGAN]
 |dialogue&gt;[- YES: That&#39;s right, you were in a simulation. Welcome back to the real world. As you know...]
-|dialogue&gt;[- NO: Everything you just experienced was a simulation. This is the real world. You may not believe me while you recover, but that&#39;s the truth.]
-|dialogue&gt;[- WAIT: I see you&#39;re still disoriented. Let me explain.]
+|dialogue&gt;[- NO: Everything you just experienced was a simulation. This is the real world. You may not believe me while you recover, but that is the truth.]
+|dialogue&gt;[- WAIT: I see you&#39;re still disoriented. Let me explain. (Says NO response dialogue.)]
 
 |action&gt;[Regardless of your response, KEGAN continues.]
 
@@ -798,30 +874,101 @@ Occasionally, a corrupt program within a simulation requires debugging. You just
 |action&gt;[The FILLED DONUT SCIENTIST pulls a thumb drive from his computer and hands it to KEGAN. KEGAN hands you the thumb drive.]
 
 |name&gt;[KEGAN]
-|dialogue&gt;[In the meantime, run this to Commander Gorg. You&#39;ll find him in his office. Top floor, in the building next to the weapons range.]
+|dialogue&gt;[In the meantime, run this to Commander Gorg. You&#39;ll find him in his office. It&#39;s the top floor of the tallest building. Next to the weapons range.]
 
-|action&gt;[You leave the room. As you exit, you overhear two donuts talking nearby.]
+|action&gt;[KEGAN has some lines he cycles through if you haven&#39;t left yet.]
 
-|name&gt;[DONUT 1]
-|dialogue&gt;[I gotta run this file up to Commander Gorg&#39;s office.]
+|name&gt;[KEGAN]
+|dialogue&gt;[The door is unlocked for you, soldier.]
+|dialogue&gt;[Comander Gorg&#39;s office is in the building near the weapons range. Top floor. Get moving.]
+|dialogue&gt;[Get moving, soldier.]
+|dialogue&gt;[You should get moving.]
 
-|action&gt;[You follow DONUT 1 to an elevator. Inside, you notice propaganda posters on the walls. The elevator ascends to the ground floor.]
+|action&gt;[You leave the room. As you exit, you overhear two donut officers (DONUT OFFICER 1 and DONUT OFFICER 2) having a conversation down the hall.]
 
-|action&gt;[You follow DONUT 1 across the street to the tallest building on the base. Near the entrance, you encounter an enthusiastic donut operating the weapons range.]
+|action&gt;[This conversation will start before you leave the room. It can be an easter egg to experience the whole conversation if you somehow leave the room early.]
 
-|name&gt;[WEAPONS RANGE OPERATOR]
-|dialogue&gt;[Hey there! Anyone want to come shoot some guns?]
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[We were completely pinned down by at least a hundred, maybe 200 Muffins, on all side. I kid you not,]
 
-|action&gt;[The operator asks DONUT 1, who declines and keeps walking. The operator then turns to you.]
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[That sounds fudging nuts. How&#39;d you get out?]
 
-|name&gt;[WEAPONS RANGE OPERATOR]
-|dialogue&gt;[How about you, soldier? Want to try out some firepower?]
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[Sergeant Johnson. That&#39;s how we got out. He took everyone&#39;s grenades and ran to the west wing of our building. We were on the opposite side. The east wing. Johnson started lobbing grenades from the rooftop. Muffins closed in on him, concentrating fire on his position.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[I bet those Muffin savages thought your whole team was there.]
+
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[No doubt. Johnson&#39;s diversion gave us enough time to punch a hole through the enemy perimeter and escape. We all made it out... except Johnson.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[That&#39;s a dang shame. Sergeant Johnson was just too good for this world I guess.]
+
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[Muffins paid the price. Called in artillery and blew that whole area sky-high.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[That should teach those fudgebuckets not to mees with us.]
+
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[Don&#39;t count on it. Muffins never learn.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[Well, you are right about that. Whatchya got there?]
+
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[Classified documents.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[What&#39;s it about?]
+
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[Classified.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[Fine, be like that.]
+
+|action&gt;[As you approach, their conversation finishes.]
+
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[Anyway, I gotta run these documents up to Commander Gorg&#39;s office.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[Don&#39;t you mean King Gorg?]
+
+|name&gt;[DONUT OFFICER 1]
+|dialogue&gt;[Ya, ya. Whatever he wants to call himself.]
+
+|name&gt;[DONUT OFFICER 2]
+|dialogue&gt;[Ha ha. I&#39;m never gonna get used to calling him King either. Well, see you around.]
+
+|action&gt;[You follow DONUT OFFICER 1 to an elevator. Inside, you notice propaganda posters on the walls. The elevator ascends to the ground floor.]
+
+|action&gt;[You follow DONUT OFFICER 1 across the street to the tallest building on the base. Near the entrance, you encounter an enthusiastic DONUT WEAPONS RANGE OPERATOR in charge of the weapons range.]
+
+|name&gt;[DONUT WEAPONS RANGE OPERATOR]
+|dialogue&gt;[Hey there! You wanna come shoot some guns?]
+|dialogue&gt;[What about you officer? We got guns, grenades, targets. Everything you need.]
+
+|action&gt;[DONUT WEAPONS RANGE OPERATOR asks DONUT OFFICER 1, who declines and keeps walking. DONUT WEAPONS RANGE OPERATOR then turns to you.]
+
+|name&gt;[DONUT WEAPONS RANGE OPERATOR]
+|dialogue&gt;[How about you? I assume your a soldier... or something? Wanna try out some firepower?]
 
 |name&gt;[YOU]
 |dialogue&gt;[- YES - NO - WAIT]
 
-|action&gt;[If you choose YES, you follow the operator to the weapons range for a brief shooting session. 
-If NO or WAIT, you continue following DONUT 1.]
+|name&gt;[DONUT WEAPONS RANGE OPERATOR]
+|dialogue&gt;[- YES: Yehaw! That&#39;s what I&#39;m talkin&#39; about! Step right in. Pick whatever you want and let it rip.]
+|dialogue&gt;[- NO (OR IF YOU KEEP WALKING PAST): Alrighty then. If you see me here and wanna shoot somethin&#39;. Just come right up.]
+|dialogue&gt;[- WAIT: So how about it? Wanna shoot some guns?]
+
+|action&gt;[If you choose YES, you follow the operator to the weapons range for a brief shooting session, after which you can continue to Gorg&#39;s office.
+If NO, you continue to Gorg&#39;s office and can follow DONUT OFFICER 1.]
+
+|action&gt;[In the weapons range, DONUT WEAPONS RANGE OPERATOR has additional dialogue to teach you how different guns or equipment like grenades function, whenever you pick something new up.]
 
 |action&gt;[You enter another elevator with more propaganda posters. It ascends to Commander Gorg&#39;s office floor. 
 As you approach, you overhear a conversation between GORG and GENERAL ZIMMAR.]
@@ -836,19 +983,19 @@ As you approach, you overhear a conversation between GORG and GENERAL ZIMMAR.]
 |dialogue&gt;[Most of the enemies we encircled have already surrendered, so we&#39;ll need to build more camps to house the new prisoners.]
 
 |name&gt;[GORG]
-|dialogue&gt;[Prisoners? General, if we keep taking prisoners, the enemy won&#39;t fear us and they will keep fighting.]
+|dialogue&gt;[Prisoners? General Zimmar, if we keep taking prisoners, the enemy won&#39;t fear us and they will keep fighting.]
 
 |name&gt;[GENERAL ZIMMAR]
-|dialogue&gt;[Uh- Aa- Absolutely correct, Commander Gorg. Though we could have the prisoners manufacture more war supplies, since they are depleting rather quickly.]
+|dialogue&gt;[Uh- Aa- Absolutely correct, Commander Gorg. I mean King Gorg. My appologies, your highness. Though if I may suggest, we could have the new prisoners manufacture more war supplies, since we are depleting them rather quickly.]
 
 |name&gt;[GORG]
-|dialogue&gt;[Are you suggesting we have these prisoners make the very bullets that will kill their comrades?]
+|dialogue&gt;[Are you suggesting we have these Muffin prisoners make the very bullets that will kill their Muffin comrades?]
 
 |name&gt;[GENERAL ZIMMAR]
-|dialogue&gt;[(Scared silence.)]
+|dialogue&gt;[(Scared silence.) Well- I- Uh-.]
 
 |name&gt;[GORG]
-|dialogue&gt;[Ha ha ha. General, you&#39;re even more diabolical than I am. Get started on those camps right away.]
+|dialogue&gt;[Ha ha ha. General, you&#39;re even more diabolical than I am. Get started on those prison camps right away.]
 
 |name&gt;[GENERAL ZIMMAR]
 |dialogue&gt;[Yes sir!]
@@ -866,17 +1013,16 @@ As you approach, you overhear a conversation between GORG and GENERAL ZIMMAR.]
 |action&gt;[GORG inserts the drive into his computer and reviews it privately.]
 
 |name&gt;[GORG]
-|dialogue&gt;[Ah, so you&#39;re part of that computer task, stuff... project. Why is he sending me this— Look, I don&#39;t follow all of this technical mumbo-jumbo that Sgt. KEGAN is up to.
-But whatever it is you&#39;re doing, I trust it&#39;s a necessary step towards defeating our savage enemy. Sgt. Kegan is better than the best, and he does not waste time. That&#39;s why I like him. We need more men like Sergeant Kegan.]
+|dialogue&gt;[Ah, so you&#39;re part of that computer task, stuff... project. Why is he sending me this— Look, I don&#39;t follow all of this technical mumbo-jumbo that Sgt. KEGAN is up to. But whatever it is you&#39;re doing, I trust it&#39;s a necessary step towards defeating our savage enemy. Sgt. Kegan is better than the best, and he does not waste time. That&#39;s why I like him. We need more men like Sergeant Kegan.]
 
 |action&gt;[GORG gets a phone call and answers it.]
 
 |name&gt;[GORG]
-|dialogue&gt;[What?
+|dialogue&gt;[What?!
 Yes, Sergeant. I received it.
 Ya, everything looks good. Keep up the great work.
 No, no, I do appreciate the updates. Keep &#39;em coming. Keep &#39;em coming.
-Ok, I will tell that thing to go back.]
+Ok, I will tell that thing you sent to go back.]
 
 |action&gt;[GORG hangs up.]
 
@@ -892,11 +1038,25 @@ Ok, I will tell that thing to go back.]
 |dialogue&gt;[He appears to be altering the algorithm of the Simulation. Sir, is this supposed to be happening?]
 
 |name&gt;[KEGAN]
-|dialogue&gt;[We need to move now.
-Ready up soldier, it&#39;s time to terminate the program. Once inside, locate and activate the signal. Our teams will handle the rest.
-Good luck soldier.]
+|dialogue&gt;[We need to move now.]
 
-|action&gt;[KEGAN injects something into your head. You put on the simulator.]</tw-passagedata><tw-passagedata pid="9" name="A1-S06" tags="Timeframe_Advanced" position="725,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 06]
+|action&gt;[KEGAN presses some buttons while he is talking to you.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[Ready up soldier, it&#39;s time to terminate the program. Once inside, locate and activate the signal. Our teams will handle the rest.]
+
+|action&gt;[FILLED DONUT SCIENTIST has a simulator prepared to put on your face. KEGAN injects something into your head.]
+
+|name&gt;[KEGAN]
+|dialogue&gt;[Good luck soldier.]
+
+|action&gt;[Just after the injection. FILLED DONUT SCIENTIST puts the simulator on your face.]
+
+
+
+
+
+</tw-passagedata><tw-passagedata pid="9" name="A1-S06" tags="Timeframe_Advanced" position="725,1225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1 - SCENE 06]
 CORUPT PROGRAM
 INT - NIGHT - SIM LABS HQ]
 
@@ -5162,36 +5322,7 @@ Hilda (Frost Peak)
 
 
 
-</tw-passagedata><tw-passagedata pid="94" name="Expletive Replacements" tags="" position="350,625" size="100,100">THE SIMULATION™ Expletive Replacements
-
-Characters in this game world do not use real curse words. They have their own curse words. Muffins and Donuts have curse words that are more native to their speech, but they can all be used by any characters. Here&#39;s a list of some of the curse words: 
-
-
-
-
-
-
-
-	BOTH:
-Insulin
-
-	DONUTS (American Accent):
-Fluffernutter
-Fudgebuckets
-Fudge
-Huckleberry
-Snickerdoodle
-
-	MUFFINS (British Accent):
-Flapjacks (Flapping flapjacks)
-Cinnamon Sticks
-Cranberry Sauce
-Bumbleberry
-Biscuits
-Nutcase / Nuts
-
-
-</tw-passagedata><tw-passagedata pid="95" name="A2-S19.2" tags="Timeframe_Early" position="1050,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.2]
+</tw-passagedata><tw-passagedata pid="94" name="A2-S19.2" tags="Timeframe_Early" position="1050,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.2]
 HOSTAGE RESCUE]
 
 Johnson leads a task force to resuce Donut hostages held by Muffins. After a few Muffin gaurds are sniped, you all move into the outpost. There is only a Muffins civilian pressence when entering the Muffin outpost. 
@@ -5211,7 +5342,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="96" name="A2-S19.3" tags="Timeframe_Early" position="1050,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.3]
+</tw-passagedata><tw-passagedata pid="95" name="A2-S19.3" tags="Timeframe_Early" position="1050,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.3]
 DEBRIEF
 INT - DAY - GENERAL GRIMMER’S OFFICE]
 
@@ -5287,7 +5418,7 @@ Let’s begin.
 
 
 
-</tw-passagedata><tw-passagedata pid="97" name="Linguistic Terms" tags="" position="350,775" size="100,100">Notes about linguistic terms:
+</tw-passagedata><tw-passagedata pid="96" name="Linguistic Terms" tags="" position="350,775" size="100,100">Notes about linguistic terms:
 
 There are certain words or phrases that are not used in this game as to maintain immersion within this world of the game and not draw too much attention to outside real life entities or ideas. Some of these rules might seem ridiculous but I believe it is important and easy enough to avoid certain words and maintain the believability of this story taking place within its own world and not simply in analogy of a real world conflict.
 
@@ -5352,7 +5483,7 @@ Simulation / Simulator Headset
 
 
 
-</tw-passagedata><tw-passagedata pid="98" name="A2-S48-G" tags="Timeframe_Advanced" position="1175,4850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 48-G]
+</tw-passagedata><tw-passagedata pid="97" name="A2-S48-G" tags="Timeframe_Advanced" position="1175,4850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 48-G]
 REMNANTS]
 
 You and Hector are walking through a blizzard in the snow. Eventually you come across the last remenents of the Donut and Muffin Alliance. It&#39;s a ragtag group of Muffin and Donut soldiers that are protecting a large group of Muffin refugees. Everyone is happy to see Hector. Hector gives an impromtue speech to this one group that is recorded live on video. The map shows they are cut off in the north and they are surrounded by enemies on all sides. Gorg&#39;s army is strong, so some suggest trying to cut through the relavily weak defences of the Sacred Knights to breakout, although even that would be suicide. With no good options, Johnson suggests marching north. Maybe they can sneak past the frost peak Muffins (allied with Cain), and then decide what to do. Everyone agrees that&#39;s a dumb plan, but that&#39;s the only plan they got.
@@ -5400,7 +5531,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="99" name="A2-S49-G" tags="Timeframe_Advanced" position="1175,4975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 49-G]
+</tw-passagedata><tw-passagedata pid="98" name="A2-S49-G" tags="Timeframe_Advanced" position="1175,4975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 49-G]
 BAD OPTICS]
 
 You are in Facility X. You got extracted.
@@ -5424,7 +5555,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="100" name="A2-S50-G" tags="Timeframe_Advanced" position="1175,5100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 50-G]
+</tw-passagedata><tw-passagedata pid="99" name="A2-S50-G" tags="Timeframe_Advanced" position="1175,5100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 50-G]
 UNITED SWEETS ALLIANCE]
 
 You are extracted but this time back with the good guys and Luwig is there too.
@@ -5459,7 +5590,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="101" name="A2-S51-G" tags="Timeframe_Advanced" position="1175,5225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 51-G]
+</tw-passagedata><tw-passagedata pid="100" name="A2-S51-G" tags="Timeframe_Advanced" position="1175,5225" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 51-G]
 PRISON BREAK]
 
 You join Johnson on the task force to rescue the prisoners from Gorg. Johnson thanks you for always being there. And without you, there may have never been a chance for this partnership between Muffins and Donuts.
@@ -5477,7 +5608,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="102" name="A2-S52-G" tags="Timeframe_Advanced" position="1175,5350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 52-G]
+</tw-passagedata><tw-passagedata pid="101" name="A2-S52-G" tags="Timeframe_Advanced" position="1175,5350" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 52-G]
 FROSTY AMBUSH]
 
 You are in the middle of a snowy environment, perhaps near the Frost Peak region. A patrol of Sacred Knights fighters come across you. They talk about how you look like that other thing they captured. They think Cain will like that they captured you too.
@@ -5495,7 +5626,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="103" name="A2-S53-G" tags="Timeframe_Advanced" position="1175,5475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 53-G]
+</tw-passagedata><tw-passagedata pid="102" name="A2-S53-G" tags="Timeframe_Advanced" position="1175,5475" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 53-G]
 USA CONFERENCE]
 
 A delegation of Muffins arrive to the Donut capital. There is a fancy USA conference of everyone to discuss the state of the allience. Hector has talks with some Donut leaders about some aid that is needed to Muffin villages recently liberated from SK Muffins. Donuts agree they can provide aid. Hector then leaves outside even though he is much sought out for.
@@ -5552,7 +5683,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="104" name="A2-S54-G" tags="Timeframe_Advanced" position="1175,5600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 54-G]
+</tw-passagedata><tw-passagedata pid="103" name="A2-S54-G" tags="Timeframe_Advanced" position="1175,5600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 54-G]
 A NEW THEORY]
 
 You are at Sim Labs. Some researchers are concerned about Ludwig who has been locked inside his lab sector for weeks. They finally decide to break in to find a frantically working Ludwig who tells everyone to wait in the demonstration room because he wants to show them all something. He ends up explaining his new spacetime theory and immediately gets speculation and Ludwig responds harshly with adhomenoms.
@@ -5578,7 +5709,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="105" name="Act 3 - Good Path" tags="" position="1475,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
+</tw-passagedata><tw-passagedata pid="104" name="Act 3 - Good Path" tags="" position="1475,475" size="100,100">|specialtitle&gt;[(text-style:&quot;underline&quot;)[The Simulation™]
 (text-size:5)[Act 3 - Good Path]]
 
 (align:&quot;==&gt;&quot;)[[[Continue...|A3-S01-G]]]
@@ -5587,7 +5718,7 @@ SCRIPT DRAFT:
 
 MY NOTES:
 - 
-</tw-passagedata><tw-passagedata pid="106" name="A3-S01-G" tags="Timeframe_Advanced" position="1475,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 01-G]
+</tw-passagedata><tw-passagedata pid="105" name="A3-S01-G" tags="Timeframe_Advanced" position="1475,600" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 01-G]
 THE QUERY]
 
 The war is almost won.
@@ -5616,7 +5747,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="107" name="A3-S02-G" tags="Timeframe_Advanced" position="1475,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 02-G]
+</tw-passagedata><tw-passagedata pid="106" name="A3-S02-G" tags="Timeframe_Advanced" position="1475,725" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 02-G]
 FINAL ASSAULT]
 &lt;img src=&quot;https://i.imgur.com/I0qbGWf.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are in a helicopter in route to assault Facility X. This time, all the forces of the USA are combined, Donuts and Muffins. Everyone is there including Hector.
@@ -5682,7 +5813,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="108" name="A3-S03-G" tags="Timeframe_Advanced" position="1475,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 03-G]
+</tw-passagedata><tw-passagedata pid="107" name="A3-S03-G" tags="Timeframe_Advanced" position="1475,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 03-G]
 REMEMBERANCE]
 
 You are in a Donut cemetary. Ludwig finds you and tells you to follow him.
@@ -5707,7 +5838,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="109" name="A3-S04-G" tags="Timeframe_Advanced" position="1475,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-G]
+</tw-passagedata><tw-passagedata pid="108" name="A3-S04-G" tags="Timeframe_Advanced" position="1475,975" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 04-G]
 VICTORY DAY]
 &lt;img src=&quot;https://i.imgur.com/YG2z1mi.jpg&quot; class=&quot;fitHalf&quot;&gt;
 You are in a victory day parade. Muffins and Donuts line the streets together. There is a celebration of peace between Muffins and Donuts. You are lead to the capital steps where you see all the main and secondary &quot;good&quot; characters that are still alive, including alt you. As you make your way up the steps, Ludwig steps out and stops you. He congradulates you on having the honor of lifting the orb of peace. He also tells you he managed configure the simulation you are in so that your next extraction event will send you completely outside all simulation levels and back to your original reality from whence you came. He does warn you that you will be expierencing increasingly intense hallucinations prior to extraction. He informs you that your body might feel more tactile and higher resolution outside the simulation so you might need to remove your headset in a more physical mannor.
@@ -5730,7 +5861,7 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="110" name="A3-S05-G-END" tags="" position="1475,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 05-G]
+</tw-passagedata><tw-passagedata pid="109" name="A3-S05-G-END" tags="" position="1475,1100" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 3 - SCENE 05-G]
 CREDITS!]
 &lt;img src=&quot;raw=1&quot; class=&quot;fit&quot;&gt;
 
@@ -5738,13 +5869,13 @@ CREDITS!]
 
 
 MY NOTES:
-- </tw-passagedata><tw-passagedata pid="111" name="Key Details about this game" tags="" position="350,325" size="100,100">Key Details about this game:
+- </tw-passagedata><tw-passagedata pid="110" name="Key Details about this game" tags="" position="350,325" size="100,100">Key Details about this game:
 
 1. Entering and exiting simulation levels by wearing or removing &quot;simulator headsets&quot; serves as the main plot device driving the story forward. This is how most scene transitions happen.
 
 2. More on plot devices: It is explained early in the story that The Simulation™ is a little unstable and will have minor glitches occassionaly. Minor glitches will be used to shorten long walks or waiting times within a scene. Major gltiches happen when the RAM is overloaded which triggers a simulation extraction event that prompts you to remove the simulator, which will advance the story to the next scene in most cases.
 
-</tw-passagedata><tw-passagedata pid="112" name="A2-S19.4" tags="Timeframe_Early" position="1175,1025" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.4]
+</tw-passagedata><tw-passagedata pid="111" name="A2-S19.4" tags="Timeframe_Early" position="1175,1025" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 2 - SCENE 19.4]
 MALL MASACRE]
 
 You are in a Donut shopping center. Suddenly, Muffins start shooting around indiscriminately.
@@ -5804,66 +5935,13 @@ SCRIPT DRAFT:
 
 
 
-</tw-passagedata><tw-passagedata pid="113" name="Haku Talkabouts" tags="" position="300,175" size="100,100">1. Talk about doors. Might want to switch Sim Labs and Facility X style doors.
+</tw-passagedata><tw-passagedata pid="112" name="Haku Talkabouts" tags="" position="300,175" size="100,100">1. Talk about doors. Might want to switch Sim Labs and Facility X style doors.
 
 2. Talk about &quot;almost chairs&quot;.
 
 3. Secondary characters.
 
-4. Flag designs.</tw-passagedata><tw-passagedata pid="114" name="TOC" tags="" position="700,175" size="100,100">Links for conveniently jumping to different points in the story:
-
-
-
-[[START GAME|START GAME]]
-[[Act 1]]
-[[Act 2]]
-[[A2-S18]] 
-
-
-
-[[The Good Path]]
-[[Act 3 - Good Path]] 
-
-
-
-[[The Bad Path]]
-[[Act 3 - Bad Path]] 
-
-
-
-
-
-
-
-
-...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Links to micellaneous notes that are about the game in general, not scene specific:
-
-[[Key Details about this game]] 
-[[Names List]] 
-[[Expletive Replacements]] 
-[[Linguistic Terms]] 
-[[Haku Talkabouts]] </tw-passagedata><tw-passagedata pid="115" name="A1-S03" tags="Timeframe_Primitive Timeframe_Modern" position="725,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1  SCENE 03]
+4. Flag designs.</tw-passagedata><tw-passagedata pid="113" name="A1-S03" tags="Timeframe_Primitive Timeframe_Modern" position="725,850" size="100,100">|act&gt;[(text-style:&quot;underline&quot;)[ACT 1  SCENE 03]
 BACK TO THE FUTURE
 EXT - NIGHT - TRAINING SIMULATION]
 &lt;img src=&quot;https://i.imgur.com/0wCCxrU.jpg&quot; class=&quot;fitHalf&quot;&gt;
@@ -6074,6 +6152,35 @@ Hold on Mr. Anderson. I&#39;m getting you out.—]
 |action&gt;[A prompt appears instructing you to &quot;remove simulator headset from face&quot;.]
 
 
+
+
+</tw-passagedata><tw-passagedata pid="114" name="Expletive Replacements" tags="" position="275,625" size="100,100">THE SIMULATION™ Expletive Replacements
+
+Characters in this game world do not use real curse words. They have their own curse words. Muffins and Donuts have curse words that are more native to their speech, but they can all be used by any characters. Here&#39;s a list of some of the curse words: 
+
+
+
+
+
+
+
+	BOTH:
+Insulin
+
+	DONUTS (American Accent):
+Fluffernutter
+Fudgebuckets
+Fudge
+Huckleberry
+Snickerdoodle
+
+	MUFFINS (British Accent):
+Flapjacks (Flapping flapjacks)
+Cinnamon Sticks
+Cranberry Sauce
+Bumbleberry
+Biscuits
+Nutcase / Nuts
 
 
 </tw-passagedata></tw-storydata>
